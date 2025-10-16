@@ -1,0 +1,81 @@
+{
+    "data_path": "data/npvp_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "Qwen/Qwen3-4B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-4B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-4B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "Qwen/Qwen3-0.6B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-0.6B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-0.6B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "Qwen/Qwen3-1.7B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-1.7B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-1.7B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "Qwen/Qwen3-8B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-8B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-8B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "Qwen/Qwen3-14B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-14B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-14B",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/qwen3/qwen3_npvp.csv"
+}

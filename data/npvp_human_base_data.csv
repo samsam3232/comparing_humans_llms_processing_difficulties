@@ -1,0 +1,161 @@
+sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer,gp_noun,gp_verb
+The complex houses married soldiers.,Is the house complex?,s1_1,npvp_gp,gp_question,No,Yes,complex,houses
+The complex houses married soldiers.,Do married soldiers live in the complex?,s1_2,npvp_gp,simple_question,Yes,No,complex,houses
+The complex housed married soldiers.,Is the house complex?,s1_3,npvp_nongp,gp_question,No,Yes,complex,houses
+The complex housed married soldiers.,Do married soldiers live in the complex?,s1_4,npvp_nongp,simple_question,Yes,No,complex,houses
+The strong arm the cannons.,Is the arm strong?,s2_1,npvp_gp,gp_question,No,Yes,strong,arm
+The strong arm the cannons.,Did someone strong arm the cannons?,s2_2,npvp_gp,simple_question,Yes,No,strong,arm
+The strong armed the cannons.,Is the arm strong?,s2_3,npvp_nongp,gp_question,No,Yes,strong,arm
+The strong armed the cannons.,Did someone strong arm the cannons?,s2_4,npvp_nongp,simple_question,Yes,No,strong,arm
+The official addresses the crowd.,Is the address official?,s3_1,npvp_gp,gp_question,No,Yes,official,addresses
+The official addresses the crowd.,Did someone official address the crowd?,s3_2,npvp_gp,simple_question,Yes,No,official,addresses
+The official addressed the crowd.,Is the address official?,s3_3,npvp_nongp,gp_question,No,Yes,official,addresses
+The official addressed the crowd.,Did someone official address the crowd?,s3_4,npvp_nongp,simple_question,Yes,No,official,addresses
+The strong bear the load.,Is the bear strong?,s4_1,npvp_gp,gp_question,No,Yes,strong,bear
+The strong bear the load.,Did someone strong bear the load?,s4_2,npvp_gp,simple_question,Yes,No,strong,bear
+The strong bore the load.,Is the bear strong?,s4_3,npvp_nongp,gp_question,No,Yes,strong,bear
+The strong bore the load.,Did someone strong bear the load?,s4_4,npvp_nongp,simple_question,Yes,No,strong,bear
+The experienced coach the team.,Is the coach experienced?,s5_1,npvp_gp,gp_question,No,Yes,experienced,coach
+The experienced coach the team.,Did someone experienced coach the team?,s5_2,npvp_gp,simple_question,Yes,No,experienced,coach
+The experienced coached the team.,Is the coach experienced?,s5_3,npvp_nongp,gp_question,No,Yes,experienced,coach
+The experienced coached the team.,Did someone experienced coach the team?,s5_4,npvp_nongp,simple_question,Yes,No,experienced,coach
+The professional cook the meals.,Is the cook professional?,s6_1,npvp_gp,gp_question,No,Yes,professional,cook
+The professional cook the meals.,Did someone professional cook the meals?,s6_2,npvp_gp,simple_question,Yes,No,professional,cook
+The professional cooked the meals.,Is the cook professional?,s6_3,npvp_nongp,gp_question,No,Yes,professional,cook
+The professional cooked the meals.,Did someone professional cook the meals?,s6_4,npvp_nongp,simple_question,Yes,No,professional,cook
+The graceful dance the waltz.,Is the dance graceful?,s7_1,npvp_gp,gp_question,No,Yes,graceful,dance
+The graceful dance the waltz.,Did someone graceful dance the waltz?,s7_2,npvp_gp,simple_question,Yes,No,graceful,dance
+The graceful danced the waltz.,Is the dance graceful?,s7_3,npvp_nongp,gp_question,No,Yes,graceful,dance
+The graceful danced the waltz.,Did someone graceful dance the waltz?,s7_4,npvp_nongp,simple_question,Yes,No,graceful,dance
+The brave face the danger.,Is someone putting on a brave face?,s8_1,npvp_gp,gp_question,No,Yes,brave,face
+The brave face the danger.,Did someone brave face the danger?,s8_2,npvp_gp,simple_question,Yes,No,brave,face
+The brave faced the danger.,Is someone putting on a brave face?,s8_3,npvp_nongp,gp_question,No,Yes,brave,face
+The brave faced the danger.,Did someone brave face the danger?,s8_4,npvp_nongp,simple_question,Yes,No,brave,face
+The orderly file the document.,Is the file orderly?,s9_1,npvp_gp,gp_question,No,Yes,orderly,file
+The orderly file the document.,Did someone orderly file the document?,s9_2,npvp_gp,simple_question,Yes,No,orderly,file
+The orderly filed the document.,Is the file orderly?,s9_3,npvp_nongp,gp_question,No,Yes,orderly,file
+The orderly filed the document.,Did someone orderly file the document?,s9_4,npvp_nongp,simple_question,Yes,No,orderly,file
+The young fish salmon.,Is the fish young?,s10_1,npvp_gp,gp_question,No,Yes,young,fish
+The young fish salmon.,Did someone young fish salmon?,s10_2,npvp_gp,simple_question,Yes,No,young,fish
+The young fished salmon.,Is the fish young?,s10_3,npvp_nongp,gp_question,No,Yes,young,fish
+The young fished salmon.,Did someone young fish salmon?,s10_4,npvp_nongp,simple_question,Yes,No,young,fish
+The skilled hand the control.,Is the hand skilled?,s11_1,npvp_gp,gp_question,No,Yes,skilled,hand
+The skilled hand the control.,Did someone skilled hand the control?,s11_2,npvp_gp,simple_question,Yes,No,skilled,hand
+The skilled handed the control.,Is the hand skilled?,s11_3,npvp_nongp,gp_question,No,Yes,skilled,hand
+The skilled handed the control.,Did someone skilled hand the control?,s11_4,npvp_nongp,simple_question,Yes,No,skilled,hand
+The designated head the committee.,Is there a designated head?,s12_1,npvp_gp,gp_question,No,Yes,designated,head
+The designated head the committee.,Did someone that was designated head the committee?,s12_2,npvp_gp,simple_question,Yes,No,designated,head
+The designated headed the committee.,Is there a designated head?,s12_3,npvp_nongp,gp_question,No,Yes,designated,head
+The designated headed the committee.,Did someone that was designated head the committee?,s12_4,npvp_nongp,simple_question,Yes,No,designated,head
+The clever fool the guards.,Is there a clever fool?,s13_1,npvp_gp,gp_question,No,Yes,clever,fool
+The clever fool the guards.,Did someone clever fool the guard?,s13_2,npvp_gp,simple_question,Yes,No,clever,fool
+The clever fooled the guards.,Is there a clever fool?,s13_3,npvp_nongp,gp_question,No,Yes,clever,fool
+The clever fooled the guards.,Did someone clever fool the guard?,s13_4,npvp_nongp,simple_question,Yes,No,clever,fool
+The seasoned grill the steaks.,Is the grill seasoned?,s14_1,npvp_gp,gp_question,No,Yes,seasoned,grill
+The seasoned grill the steaks.,Did someone experienced grill the steaks?,s14_2,npvp_gp,simple_question,Yes,No,seasoned,grill
+The seasoned grilled the steaks.,Is the grill seasoned?,s14_3,npvp_nongp,gp_question,No,Yes,seasoned,grill
+The seasoned grilled the steaks.,Did someone experienced grill the steaks?,s14_4,npvp_nongp,simple_question,Yes,No,seasoned,grill
+The devoted stage the protest.,Is the stage devoted?,s15_1,npvp_gp,gp_question,No,Yes,devoted,stage
+The devoted stage the protest.,Did someone devoted stage the protest?,s15_2,npvp_gp,simple_question,Yes,No,devoted,stage
+The devoted staged the protest.,Is the stage devoted?,s15_3,npvp_nongp,gp_question,No,Yes,devoted,stage
+The devoted staged the protest.,Did someone devoted stage the protest?,s15_4,npvp_nongp,simple_question,Yes,No,devoted,stage
+The mighty power the engines.,Is there a mighty power?,s16_1,npvp_gp,gp_question,No,Yes,mighty,power
+The mighty power the engines.,Did someone mighty power the engines?,s16_2,npvp_gp,simple_question,Yes,No,mighty,power
+The mighty powered the engines.,Is there a mighty power?,s16_3,npvp_nongp,gp_question,No,Yes,mighty,power
+The mighty powered the engines.,Did someone mighty power the engines?,s16_4,npvp_nongp,simple_question,Yes,No,mighty,power
+The brave mount the horses.,Is there a brave horse?,s17_1,npvp_gp,gp_question,No,Yes,brave,mount
+The brave mount the horses.,Did someone brave mount the horses?,s17_2,npvp_gp,simple_question,Yes,No,brave,mount
+The brave mounted the horses.,Is there a brave horse?,s17_3,npvp_nongp,gp_question,No,Yes,brave,mount
+The brave mounted the horses.,Did someone brave mount the horses?,s17_4,npvp_nongp,simple_question,Yes,No,brave,mount
+The poor harvest the crops.,Is the harvest poor?,s18_1,npvp_gp,gp_question,No,Yes,poor,harvest
+The poor harvest the crops.,Did someone poor harvest the crops?,s18_2,npvp_gp,simple_question,Yes,No,poor,harvest
+The poor harvested the crops.,Is the harvest poor?,s18_3,npvp_nongp,gp_question,No,Yes,poor,harvest
+The poor harvested the crops.,Did someone poor harvest the crops?,s18_4,npvp_nongp,simple_question,Yes,No,poor,harvest
+The young plant the trees.,Is the plant young?,s19_1,npvp_gp,gp_question,No,Yes,young,plant
+The young plant the trees.,Did someone young plant the trees?,s19_2,npvp_gp,simple_question,Yes,No,young,plant
+The young planted the trees.,Is the plant young?,s19_3,npvp_nongp,gp_question,No,Yes,young,plant
+The young planted the trees.,Did someone young plant the trees?,s19_4,npvp_nongp,simple_question,Yes,No,young,plant
+The weak lift the boards.,Is the board barely lifted?,s20_1,npvp_gp,gp_question,No,Yes,weak,lift
+The weak lift the boards.,Did someone weak lift the board?,s20_2,npvp_gp,simple_question,Yes,No,weak,lift
+The weak lifted the boards.,Is the board barely lifted?,s20_3,npvp_nongp,gp_question,No,Yes,weak,lift
+The weak lifted the boards.,Did someone weak lift the board?,s20_4,npvp_nongp,simple_question,Yes,No,weak,lift
+The old record the race.,Is the record old?,s21_1,npvp_gp,gp_question,No,Yes,old,record
+The old record the race.,Did someone old record the race?,s21_2,npvp_gp,simple_question,Yes,No,old,record
+The old recorded the race.,Is the record old?,s21_3,npvp_nongp,gp_question,No,Yes,old,record
+The old recorded the race.,Did someone old record the race?,s21_4,npvp_nongp,simple_question,Yes,No,old,record
+The poor light the lanterns.,Is the light poor?,s22_1,npvp_gp,gp_question,No,Yes,poor,light
+The poor light the lanterns.,Did someone poor light the lanterns?,s22_2,npvp_gp,simple_question,Yes,No,poor,light
+The poor lit the lanterns.,Is the light poor?,s22_3,npvp_nongp,gp_question,No,Yes,poor,light
+The poor lit the lanterns.,Did someone poor light the lanterns?,s22_4,npvp_nongp,simple_question,Yes,No,poor,light
+The rich soil the gardens.,Is the soil rich?,s23_1,npvp_gp,gp_question,No,Yes,rich,soil
+The rich soil the gardens.,Did someone rich soil the gardens?,s23_2,npvp_gp,simple_question,Yes,No,rich,soil
+The rich soiled the gardens.,Is the soil rich?,s23_3,npvp_nongp,gp_question,No,Yes,rich,soil
+The rich soiled the gardens.,Did someone rich soil the gardens?,s23_4,npvp_nongp,simple_question,Yes,No,rich,soil
+The blind spot the birds.,Is there a blind spot?,s24_1,npvp_gp,gp_question,No,Yes,blind,spot
+The blind spot the birds.,Did someone blind spot the birds?,s24_2,npvp_gp,simple_question,Yes,No,blind,spot
+The blind spotted the birds.,Is there a blind spot?,s24_3,npvp_nongp,gp_question,No,Yes,blind,spot
+The blind spotted the birds.,Did someone blind spot the birds?,s24_4,npvp_nongp,simple_question,Yes,No,blind,spot
+The sick leave the building.,Is someone on a sick leave?,s25_1,npvp_gp,gp_question,No,Yes,sick,leave
+The sick leave the building.,Did someone sick leave the building?,s25_2,npvp_gp,simple_question,Yes,No,sick,leave
+The sick left the building.,Is someone on a sick leave?,s25_3,npvp_nongp,gp_question,No,Yes,sick,leave
+The sick left the building.,Did someone sick leave the building?,s25_4,npvp_nongp,simple_question,Yes,No,sick,leave
+The simple answer the questionnaire.,Is the answer simple?,s26_1,npvp_gp,gp_question,No,Yes,simple,answer
+The simple answer the questionnaire.,Did someone simple answer the questionnaire?,s26_2,npvp_gp,simple_question,Yes,No,simple,answer
+The simple answered the questionnaire.,Is the answer simple?,s26_3,npvp_nongp,gp_question,No,Yes,simple,answer
+The simple answered the questionnaire.,Did someone simple answer the questionnaire?,s26_4,npvp_nongp,simple_question,Yes,No,simple,answer
+The just cause the revolt.,Is the cause just?,s27_1,npvp_gp,gp_question,No,Yes,just,cause
+The just cause the revolt.,Did someone just cause the revolt?,s27_2,npvp_gp,simple_question,Yes,No,just,cause
+The just caused the revolt.,Is there a just cause?,s27_3,npvp_nongp,gp_question,No,Yes,just,cause
+The just caused the revolt.,Did someone just cause the revolt?,s27_4,npvp_nongp,simple_question,Yes,No,just,cause
+The sharp edge the tiles.,Is the edge sharp?,s28_1,npvp_gp,gp_question,No,Yes,sharp,edge
+The sharp edge the tiles.,Did someone sharp edge the tiles?,s28_2,npvp_gp,simple_question,Yes,No,sharp,edge
+The sharp edged the tiles.,Is the edge sharp?,s28_3,npvp_nongp,gp_question,No,Yes,sharp,edge
+The sharp edged the tiles.,Did someone sharp edge the tiles?,s28_4,npvp_nongp,simple_question,Yes,No,sharp,edge
+The poor taste the soup.,Is soup tasting bad?,s29_1,npvp_gp,gp_question,No,Yes,poor,taste
+The poor taste the soup.,Did someone poor taste the soup?,s29_2,npvp_gp,simple_question,Yes,No,poor,taste
+The poor tasted the soup.,Is soup tasting bad?,s29_3,npvp_nongp,gp_question,No,Yes,poor,taste
+The poor tasted the soup.,Did someone poor taste the soup?,s29_4,npvp_nongp,simple_question,Yes,No,poor,taste
+The free press the grapes.,Is the press free?,s30_1,npvp_gp,gp_question,No,Yes,free,press
+The free press the grapes.,Did someone free press the grapes?,s30_2,npvp_gp,simple_question,Yes,No,free,press
+The free pressed the grapes.,Is the press free?,s30_3,npvp_nongp,gp_question,No,Yes,free,press
+The free pressed the grapes.,Did someone free press the grapes?,s30_4,npvp_nongp,simple_question,Yes,No,free,press
+The clean sweep the floors.,Is there a clean sweep?,s31_1,npvp_gp,gp_question,No,Yes,clean,sweep
+The clean sweep the floors.,Did someone clean sweep the floors?,s31_2,npvp_gp,simple_question,Yes,No,clean,sweep
+The clean swept the floors.,Is there a clean sweep?,s31_3,npvp_nongp,gp_question,No,Yes,clean,sweep
+The clean swept the floors.,Did someone clean sweep the floors?,s31_4,npvp_nongp,simple_question,Yes,No,clean,sweep
+The private school the recruits.,Is the school private?,s32_1,npvp_gp,gp_question,No,Yes,private,school
+The private school the recruits.,Did a soldier with the rank private school the recruits?,s32_2,npvp_gp,simple_question,Yes,No,private,school
+The private schooled the recruits.,Is the school private?,s32_3,npvp_nongp,gp_question,No,Yes,private,school
+The private schooled the recruits.,Did a soldier with the rank private school the recruits?,s32_4,npvp_nongp,simple_question,Yes,No,private,school
+The public transport the supplies.,Is there a public transportations?,s33_1,npvp_gp,gp_question,No,Yes,public,transport
+The public transport the supplies.,Did the public help transport the supplies?,s33_2,npvp_gp,simple_question,Yes,No,public,transport
+The public transported the supplies.,Is there a public transportations?,s33_3,npvp_nongp,gp_question,No,Yes,public,transport
+The public transported the supplies.,Did the public help transport the supplies?,s33_4,npvp_nongp,simple_question,Yes,No,public,transport
+The blind date the new girl.,Is the date blind?,s34_1,npvp_gp,gp_question,No,Yes,blind,date
+The blind date the new girl.,Did someone blind date the new girl?,s34_2,npvp_gp,simple_question,Yes,No,blind,date
+The blind dated the new girl.,Is the date blind?,s34_3,npvp_nongp,gp_question,No,Yes,blind,date
+The blind dated the new girl.,Did someone blind date the new girl?,s34_4,npvp_nongp,simple_question,Yes,No,blind,date
+The weak point the way.,Is there a weak point?,s35_1,npvp_gp,gp_question,No,Yes,weak,point
+The weak point the way.,Did someone weak point the way?,s35_2,npvp_gp,simple_question,Yes,No,weak,point
+The weak pointed the way.,Is there a weak point?,s35_3,npvp_nongp,gp_question,No,Yes,weak,point
+The weak pointed the way.,Did someone weak point the way?,s35_4,npvp_nongp,simple_question,Yes,No,weak,point
+The hard drive the cattle.,Is there a hard drive?,s36_1,npvp_gp,gp_question,No,Yes,hard,drive
+The hard drive the cattle.,Did someone hard drive the cattle?,s36_2,npvp_gp,simple_question,Yes,No,hard,drive
+The hard drove the cattle.,Is there a hard drive?,s36_3,npvp_nongp,gp_question,No,Yes,hard,drive
+The hard drove the cattle.,Did someone hard drive the cattle?,s36_4,npvp_nongp,simple_question,Yes,No,hard,drive
+The quick fix the leaks.,Is there a quick fix?,s37_1,npvp_gp,gp_question,No,Yes,quick,fix
+The quick fix the leaks.,Did someone quick fix the leaks?,s37_2,npvp_gp,simple_question,Yes,No,quick,fix
+The quick fixed the leaks.,Is there a quick fix?,s37_3,npvp_nongp,gp_question,No,Yes,quick,fix
+The quick fixed the leaks.,Did someone quick fix the leaks?,s37_4,npvp_nongp,simple_question,Yes,No,quick,fix
+The strong drink the ale.,Is the drink strong?,s38_1,npvp_gp,gp_question,No,Yes,strong,drink
+The strong drink the ale.,Did someone strong drink the ale?,s38_2,npvp_gp,simple_question,Yes,No,strong,drink
+The strong drank the ale.,Is the drink strong?,s38_3,npvp_nongp,gp_question,No,Yes,strong,drink
+The strong drank the ale.,Did someone strong drink the ale?,s38_4,npvp_nongp,simple_question,Yes,No,strong,drink
+The bold move the furniture.,Is the move bold?,s39_1,npvp_gp,gp_question,No,Yes,bold,move
+The bold move the furniture.,Did someone bold move the furniture?,s39_2,npvp_gp,simple_question,Yes,No,bold,move
+The bold moved the furniture.,Is the move bold?,s39_3,npvp_nongp,gp_question,No,Yes,bold,move
+The bold moved the furniture.,Did someone bold move the furniture?,s39_4,npvp_nongp,simple_question,Yes,No,bold,move
+The slow burn the letters.,Is there a slow burn?,s40_1,npvp_gp,gp_question,No,Yes,slow,burn
+The slow burn the letters.,Did someone slow burn the letters?,s40_2,npvp_gp,simple_question,Yes,No,slow,burn
+The slow burned the letters.,Is there a slow burn?,s40_3,npvp_nongp,gp_question,No,Yes,slow,burn
+The slow burned the letters.,Did someone slow burn the letters?,s40_4,npvp_nongp,simple_question,Yes,No,slow,burn

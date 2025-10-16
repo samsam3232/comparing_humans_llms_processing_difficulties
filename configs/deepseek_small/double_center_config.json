@@ -1,0 +1,54 @@
+{
+    "data_path": "data/double_center_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "question_type": "question",
+    "model_args": [
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            "open_source": true
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+            "open_source": true
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+            "open_source": true
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes_question.json",
+    "results_path": "results/llm_results/deepseek_small/double_center.csv"
+}

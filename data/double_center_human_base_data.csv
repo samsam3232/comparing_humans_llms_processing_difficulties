@@ -1,0 +1,241 @@
+sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer
+The man that the teacher that the student liked called sat.,Who did the student like?,s1_1,double_center_embedded,quest_deepest,The teacher,The man
+The man that the teacher that the student liked called sat.,Who did the teacher call?,s1_2,double_center_embedded,quest_middle,The man,The student
+The teacher that called the man that sat was liked by the student.,Who did the student like?,s1_3,nested_clause_embedded,quest_deepest,The teacher,The man
+The teacher that called the man that sat was liked by the student.,Who did the teacher call?,s1_4,nested_clause_embedded,quest_middle,The man,The student
+The student liked the teacher that called the man that sat.,Who did the student like?,s1_5,baseline_embedded,quest_deepest,The teacher,The man
+The student liked the teacher that called the man that sat.,Who did the teacher call?,s1_6,baseline_embedded,quest_middle,The man,The student
+The doctor that the nurse that the patient trusted praised arrived.,Who did the patient trust?,s2_1,double_center_embedded,quest_deepest,The nurse,The doctor
+The doctor that the nurse that the patient trusted praised arrived.,Who did the nurse praise?,s2_2,double_center_embedded,quest_middle,The doctor,The patient
+The nurse that praised the doctor that arrived was trusted by the patient.,Who did the patient trust?,s2_3,nested_clause_embedded,quest_deepest,The nurse,The doctor
+The nurse that praised the doctor that arrived was trusted by the patient.,Who did the nurse praise?,s2_4,nested_clause_embedded,quest_middle,The doctor,The patient
+The patient trusted the nurse that praised the doctor that arrived.,Who did the patient trust?,s2_5,baseline_embedded,quest_deepest,The nurse,The doctor
+The patient trusted the nurse that praised the doctor that arrived.,Who did the nurse praise?,s2_6,baseline_embedded,quest_middle,The doctor,The patient
+The neighbor that the parent that the child thanked invited waved.,Who did the child thank?,s3_1,double_center_embedded,quest_deepest,The parent,The neighbor
+The neighbor that the parent that the child thanked invited waved.,Who did the parent invite?,s3_2,double_center_embedded,quest_middle,The neighbor,The child
+The parent that invited the neighbor that waved was thanked by the child.,Who did the child thank?,s3_3,nested_clause_embedded,quest_deepest,The parent,The neighbor
+The parent that invited the neighbor that waved was thanked by the child.,Who did the parent invite?,s3_4,nested_clause_embedded,quest_middle,The neighbor,The child
+The child thanked the parent that invited the neighbor that waved.,Who did the child thank?,s3_5,baseline_embedded,quest_deepest,The parent,The neighbor
+The child thanked the parent that invited the neighbor that waved.,Who did the parent invite?,s3_6,baseline_embedded,quest_middle,The neighbor,The child
+The author that the editor that the reviewer praised interviewed smiled.,Who did the reviewer praise?,s4_1,double_center_embedded,quest_deepest,The editor,The author
+The author that the editor that the reviewer praised interviewed smiled.,Who did the editor interview?,s4_2,double_center_embedded,quest_middle,The author,The reviewer
+The editor that interviewed the author that smiled was praised by the reviewer.,Who did the reviewer praise?,s4_3,nested_clause_embedded,quest_deepest,The editor,The author
+The editor that interviewed the author that smiled was praised by the reviewer.,Who did the editor interview?,s4_4,nested_clause_embedded,quest_middle,The author,The reviewer
+The reviewer praised the editor that interviewed the author that smiled.,Who did the reviewer praise?,s4_5,baseline_embedded,quest_deepest,The editor,The author
+The reviewer praised the editor that interviewed the author that smiled.,Who did the editor interview?,s4_6,baseline_embedded,quest_middle,The author,The reviewer
+The scientist that the assistant that the intern admired warned laughed.,Who did the intern admire?,s5_1,double_center_embedded,quest_deepest,The assistant,The scientist
+The scientist that the assistant that the intern admired warned laughed.,Who did the assistant warn?,s5_2,double_center_embedded,quest_middle,The scientist,The intern
+The assistant that warned the scientist that laughed was admired by the intern.,Who did the intern admire?,s5_3,nested_clause_embedded,quest_deepest,The assistant,The scientist
+The assistant that warned the scientist that laughed was admired by the intern.,Who did the assistant warn?,s5_4,nested_clause_embedded,quest_middle,The scientist,The intern
+The intern admired the assistant that warned the scientist that laughed.,Who did the intern admire?,s5_5,baseline_embedded,quest_deepest,The assistant,The scientist
+The intern admired the assistant that warned the scientist that laughed.,Who did the assistant warn?,s5_6,baseline_embedded,quest_middle,The scientist,The intern
+The actor that the director that the critic praised hired performed.,Who did the critic praise?,s6_1,double_center_embedded,quest_deepest,The director,The actor
+The actor that the director that the critic praised hired performed.,Who did the director hire?,s6_2,double_center_embedded,quest_middle,The actor,The critic
+The director that hired the actor that performed was praised by the critic.,Who did the critic praise?,s6_3,nested_clause_embedded,quest_deepest,The director,The actor
+The director that hired the actor that performed was praised by the critic.,Who did the director hire?,s6_4,nested_clause_embedded,quest_middle,The actor,The critic
+The critic praised the director that hired the actor that performed.,Who did the critic praise?,s6_5,baseline_embedded,quest_deepest,The director,The actor
+The critic praised the director that hired the actor that performed.,Who did the director hire?,s6_6,baseline_embedded,quest_middle,The actor,The critic
+The chef that the waiter that the customer thanked helped cooked.,Who did the customer thank?,s7_1,double_center_embedded,quest_deepest,The waiter,The chef
+The chef that the waiter that the customer thanked helped cooked.,Who did the waiter help?,s7_2,double_center_embedded,quest_middle,The chef,The customer
+The waiter that helped the chef that cooked was thanked by the customer.,Who did the customer thank?,s7_3,nested_clause_embedded,quest_deepest,The waiter,The chef
+The waiter that helped the chef that cooked was thanked by the customer.,Who did the waiter help?,s7_4,nested_clause_embedded,quest_middle,The chef,The customer
+ The customer thanked the waiter that helped the chef that cooked.,Who did the customer thank?,s7_5,baseline_embedded,quest_deepest,The waiter,The chef
+ The customer thanked the waiter that helped the chef that cooked.,Who did the waiter help?,s7_6,baseline_embedded,quest_middle,The chef,The customer
+The mayor that the journalist that the photographer called questioned spoke.,Who did the photographer call?,s8_1,double_center_embedded,quest_deepest,The journalist,The mayor
+The mayor that the journalist that the photographer called questioned spoke.,Who did the journalist question?,s8_2,double_center_embedded,quest_middle,The mayor,The photographer
+The journalist that questioned the mayor that spoke was called by the photographer.,Who did the photographer call?,s8_3,nested_clause_embedded,quest_deepest,The journalist,The mayor
+The journalist that questioned the mayor that spoke was called by the photographer.,Who did the journalist question?,s8_4,nested_clause_embedded,quest_middle,The mayor,The photographer
+The photographer called the journalist that questioned the mayor that spoke.,Who did the photographer call?,s8_5,baseline_embedded,quest_deepest,The journalist,The mayor
+The photographer called the journalist that questioned the mayor that spoke.,Who did the journalist question?,s8_6,baseline_embedded,quest_middle,The mayor,The photographer
+The engineer that the manager that the investor trusted promoted resigned.,Who did the investor trust?,s9_1,double_center_embedded,quest_deepest,The manager,The engineer
+The engineer that the manager that the investor trusted promoted resigned.,Who did the manager promote?,s9_2,double_center_embedded,quest_middle,The engineer,The investor
+The manager that promoted the engineer that resigned was trusted by the investor.,Who did the investor trust?,s9_3,nested_clause_embedded,quest_deepest,The manager,The engineer
+The manager that promoted the engineer that resigned was trusted by the investor.,Who did the manager promote?,s9_4,nested_clause_embedded,quest_middle,The engineer,The investor
+The investor trusted the manager that promoted the engineer that resigned.,Who did the investor trust?,s9_5,baseline_embedded,quest_deepest,The manager,The engineer
+The investor trusted the manager that promoted the engineer that resigned.,Who did the manager promote?,s9_6,baseline_embedded,quest_middle,The engineer,The investor
+The singer that the producer that the fan liked hugged performed.,Who did the fan like?,s10_1,double_center_embedded,quest_deepest,The producer,The singer
+The singer that the producer that the fan liked hugged performed.,Who did the producer hug?,s10_2,double_center_embedded,quest_middle,The singer,The fan
+The producer that hugged the singer that performed was liked by the fan.,Who did the fan like?,s10_3,nested_clause_embedded,quest_deepest,The producer,The singer
+The producer that hugged the singer that performed was liked by the fan.,Who did the producer hug?,s10_4,nested_clause_embedded,quest_middle,The singer,The fan
+The fan liked the producer that hugged the singer that performed.,Who did the fan like?,s10_5,baseline_embedded,quest_deepest,The producer,The singer
+The fan liked the producer that hugged the singer that performed.,Who did the producer hug?,s10_6,baseline_embedded,quest_middle,The singer,The fan
+The researcher that the lab assistant that the supervisor instructed assisted published.,Who did the supervisor instruct?,s11_1,double_center_embedded,quest_deepest,The lab assistant,The researcher
+The researcher that the lab assistant that the supervisor instructed assisted published.,Who did the lab assistant assisted?,s11_2,double_center_embedded,quest_middle,The researcher,The supervisor
+The lab assistant that assisted the researcher that published was instructed by the supervisor.,Who did the supervisor instruct?,s11_3,nested_clause_embedded,quest_deepest,The lab assistant,The researcher
+The lab assistant that assisted the researcher that published was instructed by the supervisor.,Who did the lab assistant assisted?,s11_4,nested_clause_embedded,quest_middle,The researcher,The supervisor
+The supervisor instructed the lab assistant that assisted the researcher that published.,Who did the supervisor instruct?,s11_5,baseline_embedded,quest_deepest,The lab assistant,The researcher
+The supervisor instructed the lab assistant that assisted the researcher that published.,Who did the lab assistant assisted?,s11_6,baseline_embedded,quest_middle,The researcher,The supervisor
+The soldier that the officer that the reporter questioned commanded marched.,Who did the reporter question?,s12_1,double_center_embedded,quest_deepest,The officer,The soldier
+The soldier that the officer that the reporter questioned commanded marched.,Who did the officer command?,s12_2,double_center_embedded,quest_middle,The soldier,The reporter
+The officer that commanded the soldier that marched was questioned by the reporter.,Who did the reporter question?,s12_3,nested_clause_embedded,quest_deepest,The officer,The soldier
+The officer that commanded the soldier that marched was questioned by the reporter.,Who did the officer command?,s12_4,nested_clause_embedded,quest_middle,The soldier,The reporter
+The reporter questioned the officer that commanded the soldier that marched.,Who did the reporter question?,s12_5,baseline_embedded,quest_deepest,The officer,The soldier
+The reporter questioned the officer that commanded the soldier that marched.,Who did the officer command?,s12_6,baseline_embedded,quest_middle,The soldier,The reporter
+The athlete that the coach that the scout evaluated trained competed.,Who did the scout evaluate?,s13_1,double_center_embedded,quest_deepest,The coach,The athlete
+The athlete that the coach that the scout evaluated trained competed.,Who did the coach train?,s13_2,double_center_embedded,quest_middle,The athlete,The scout
+The coach that trained the athlete that competed was evaluated by the scout.,Who did the scout evaluate?,s13_3,nested_clause_embedded,quest_deepest,The coach,The athlete
+The coach that trained the athlete that competed was evaluated by the scout.,Who did the coach train?,s13_4,nested_clause_embedded,quest_middle,The athlete,The scout
+The scout evaluated the coach that trained the athlete that competed.,Who did the scout evaluate?,s13_5,baseline_embedded,quest_deepest,The coach,The athlete
+The scout evaluated the coach that trained the athlete that competed.,Who did the coach train?,s13_6,baseline_embedded,quest_middle,The athlete,The scout
+The farmer that the merchant that the customer paid supplied harvested.,Who did the customer pay?,s14_1,double_center_embedded,quest_deepest,The merchant,The farmer
+The farmer that the merchant that the customer paid supplied harvested.,Who did the merchant supply?,s14_2,double_center_embedded,quest_middle,The farmer,The customer
+The merchant that supplied the farmer that harvested was paid by the customer.,Who did the customer pay?,s14_3,nested_clause_embedded,quest_deepest,The merchant,The farmer
+The merchant that supplied the farmer that harvested was paid by the customer.,Who did the merchant supply?,s14_4,nested_clause_embedded,quest_middle,The farmer,The customer
+The customer paid the merchant that supplied the farmer that harvested.,Who did the customer pay?,s14_5,baseline_embedded,quest_deepest,The merchant,The farmer
+The customer paid the merchant that supplied the farmer that harvested.,Who did the merchant supply?,s14_6,baseline_embedded,quest_middle,The farmer,The customer
+The painter that the curator that the visitor admired guided smiled.,Who did the visitor admire?,s15_1,double_center_embedded,quest_deepest,The curator,The painter
+The painter that the curator that the visitor admired guided smiled.,Who did the curator guide?,s15_2,double_center_embedded,quest_middle,The painter,The visitor
+The curator that guided the painter that smiled was admired by the visitor.,Who did the visitor admire?,s15_3,nested_clause_embedded,quest_deepest,The curator,The painter
+The curator that guided the painter that smiled was admired by the visitor.,Who did the curator guide?,s15_4,nested_clause_embedded,quest_middle,The painter,The visitor
+The visitor admired the curator that guided the painter that smiled.,Who did the visitor admire?,s15_5,baseline_embedded,quest_deepest,The curator,The painter
+The visitor admired the curator that guided the painter that smiled.,Who did the curator guide?,s15_6,baseline_embedded,quest_middle,The painter,The visitor
+The novelist that the agent that the critic praised represented spoke.,Who did the critic praise?,s16_1,double_center_embedded,quest_deepest,The agent,The novelist
+The novelist that the agent that the critic praised represented spoke.,Who did the agent represent?,s16_2,double_center_embedded,quest_middle,The novelist,The critic
+The agent that represented the novelist that spoke was praised by the critic.,Who did the critic praise?,s16_3,nested_clause_embedded,quest_deepest,The agent,The novelist
+The agent that represented the novelist that spoke was praised by the critic.,Who did the agent represent?,s16_4,nested_clause_embedded,quest_middle,The novelist,The critic
+The critic praised the agent that represented the novelist that spoke.,Who did the critic praise?,s16_5,baseline_embedded,quest_deepest,The agent,The novelist
+The critic praised the agent that represented the novelist that spoke.,Who did the agent represent?,s16_6,baseline_embedded,quest_middle,The novelist,The critic
+The dancer that the choreographer that the spectator cheered instructed spun.,Who did the spectator cheer?,s17_1,double_center_embedded,quest_deepest,The choreographer,The dancer
+The dancer that the choreographer that the spectator cheered instructed spun.,Who did the choreographer instruct?,s17_2,double_center_embedded,quest_middle,The dancer,The spectator
+The choreographer that instructed the dancer that spun was cheered by the spectator.,Who did the spectator cheer?,s17_3,nested_clause_embedded,quest_deepest,The choreographer,The dancer
+The choreographer that instructed the dancer that spun was cheered by the spectator.,Who did the choreographer instruct?,s17_4,nested_clause_embedded,quest_middle,The dancer,The spectator
+The spectator cheered the choreographer that instructed the dancer that spun.,Who did the spectator cheer?,s17_5,baseline_embedded,quest_deepest,The choreographer,The dancer
+The spectator cheered the choreographer that instructed the dancer that spun.,Who did the choreographer instruct?,s17_6,baseline_embedded,quest_middle,The dancer,The spectator
+The lawyer that the judge that the journalist questioned summoned coughed.,Who did the journalist question?,s18_1,double_center_embedded,quest_deepest,The judge,The lawyer
+The lawyer that the judge that the journalist questioned summoned coughed.,Who did the judge summon?,s18_2,double_center_embedded,quest_middle,The lawyer,The journalist
+The judge that summoned the lawyer that coughed was questioned by the journalist.,Who did the journalist question?,s18_3,nested_clause_embedded,quest_deepest,The judge,The lawyer
+The judge that summoned the lawyer that coughed was questioned by the journalist.,Who did the judge summon?,s18_4,nested_clause_embedded,quest_middle,The lawyer,The journalist
+The journalist questioned the judge that summoned the lawyer that coughed.,Who did the journalist question?,s18_5,baseline_embedded,quest_deepest,The judge,The lawyer
+The journalist questioned the judge that summoned the lawyer that coughed.,Who did the judge summon?,s18_6,baseline_embedded,quest_middle,The lawyer,The journalist
+The pilot that the mechanic that the supervisor thanked assisted rested.,Who did the supervisor thank?,s19_1,double_center_embedded,quest_deepest,The mechanic,The pilot
+The pilot that the mechanic that the supervisor thanked assisted rested.,Who did the mechanic assist?,s19_2,double_center_embedded,quest_middle,The pilot,The supervisor
+The mechanic that assisted the pilot that rested was thanked by the supervisor.,Who did the supervisor thank?,s19_3,nested_clause_embedded,quest_deepest,The mechanic,The pilot
+The mechanic that assisted the pilot that rested was thanked by the supervisor.,Who did the mechanic assist?,s19_4,nested_clause_embedded,quest_middle,The pilot,The supervisor
+The supervisor thanked the mechanic that assisted the pilot that rested.,Who did the supervisor thank?,s19_5,baseline_embedded,quest_deepest,The mechanic,The pilot
+The supervisor thanked the mechanic that assisted the pilot that rested.,Who did the mechanic assist?,s19_6,baseline_embedded,quest_middle,The pilot,The supervisor
+The captain that the sailor that the tourist praised assisted yawned.,Who did the tourist praise?,s20_1,double_center_embedded,quest_deepest,The sailor,The captain
+The captain that the sailor that the tourist praised assisted yawned.,Who did the sailor assist?,s20_2,double_center_embedded,quest_middle,The captain,The tourist
+The sailor that assisted the captain that yawned was praised by the tourist.,Who did the tourist praise?,s20_3,nested_clause_embedded,quest_deepest,The sailor,The captain
+The sailor that assisted the captain that yawned was praised by the tourist.,Who did the sailor assist?,s20_4,nested_clause_embedded,quest_middle,The captain,The tourist
+The tourist praised the sailor that assisted the captain that yawned.,Who did the tourist praise?,s20_5,baseline_embedded,quest_deepest,The sailor,The captain
+The tourist praised the sailor that assisted the captain that yawned.,Who did the sailor assist?,s20_6,baseline_embedded,quest_middle,The captain,The tourist
+The sculptor that the model that the photographer interviewed inspired rested.,Who did the photographer interview?,s21_1,double_center_embedded,quest_deepest,The model,The sculptor
+The sculptor that the model that the photographer interviewed inspired rested.,Who did the model inspire?,s21_2,double_center_embedded,quest_middle,The sculptor,The photographer
+The model that inspired the sculptor that rested was interviewed by the photographer.,Who did the photographer interview?,s21_3,nested_clause_embedded,quest_deepest,The model,The sculptor
+The model that inspired the sculptor that rested was interviewed by the photographer.,Who did the model inspire?,s21_4,nested_clause_embedded,quest_middle,The sculptor,The photographer
+The photographer interviewed the model that inspired the sculptor that rested.,Who did the photographer interview?,s21_5,baseline_embedded,quest_deepest,The model,The sculptor
+The photographer interviewed the model that inspired the sculptor that rested.,Who did the model inspire?,s21_6,baseline_embedded,quest_middle,The sculptor,The photographer
+The programmer that the tester that the manager supervised debugged coughed.,Who did the manager supervise?,s22_1,double_center_embedded,quest_deepest,The tester,The programmer
+The programmer that the tester that the manager supervised debugged coughed.,Who did the tester debug?,s22_2,double_center_embedded,quest_middle,The programmer,The manager
+The tester that debugged the programmer that coughed was supervised by the manager.,Who did the manager supervise?,s22_3,nested_clause_embedded,quest_deepest,The tester,The programmer
+The tester that debugged the programmer that coughed was supervised by the manager.,Who did the tester debug?,s22_4,nested_clause_embedded,quest_middle,The programmer,The manager
+The manager supervised the tester that debugged the programmer that coughed.,Who did the manager supervise?,s22_5,baseline_embedded,quest_deepest,The tester,The programmer
+The manager supervised the tester that debugged the programmer that coughed.,Who did the tester debug?,s22_6,baseline_embedded,quest_middle,The programmer,The manager
+The knight that the squire that the bard praised served bowed.,Who did the bard praise?,s23_1,double_center_embedded,quest_deepest,The squire,The knight
+The knight that the squire that the bard praised served bowed.,Who did the squire serve?,s23_2,double_center_embedded,quest_middle,The knight,The bard
+The squire that served the knight that bowed was praised by the bard.,Who did the bard praise?,s23_3,nested_clause_embedded,quest_deepest,The squire,The knight
+The squire that served the knight that bowed was praised by the bard.,Who did the squire serve?,s23_4,nested_clause_embedded,quest_middle,The knight,The bard
+The bard praised the squire that served the knight that bowed.,Who did the bard praise?,s23_5,baseline_embedded,quest_deepest,The squire,The knight
+The bard praised the squire that served the knight that bowed.,Who did the squire serve?,s23_6,baseline_embedded,quest_middle,The knight,The bard
+The violinist that the conductor that the critic praised directed bowed.,Who did the critic praise?,s24_1,double_center_embedded,quest_deepest,The conductor,The violinist
+The violinist that the conductor that the critic praised directed bowed.,Who did the conductor direct?,s24_2,double_center_embedded,quest_middle,The violinist,The critic
+The conductor that directed the violinist that bowed was praised by the critic.,Who did the critic praise?,s24_3,nested_clause_embedded,quest_deepest,The conductor,The violinist
+The conductor that directed the violinist that bowed was praised by the critic.,Who did the conductor direct?,s24_4,nested_clause_embedded,quest_middle,The violinist,The critic
+The critic praised the conductor that directed the violinist that bowed.,Who did the critic praise?,s24_5,baseline_embedded,quest_deepest,The conductor,The violinist
+The critic praised the conductor that directed the violinist that bowed.,Who did the conductor direct?,s24_6,baseline_embedded,quest_middle,The violinist,The critic
+The senator that the lobbyist that the voter called persuaded spoke.,Who did the voter call?,s25_1,double_center_embedded,quest_deepest,The lobbyist,The senator
+The senator that the lobbyist that the voter called persuaded spoke.,Who did the lobbyist persuade?,s25_2,double_center_embedded,quest_middle,The senator,The voter
+The lobbyist that persuaded the senator that spoke was called by the voter.,Who did the voter call?,s25_3,nested_clause_embedded,quest_deepest,The lobbyist,The senator
+The lobbyist that persuaded the senator that spoke was called by the voter.,Who did the lobbyist persuade?,s25_4,nested_clause_embedded,quest_middle,The senator,The voter
+The voter called the lobbyist that persuaded the senator that spoke.,Who did the voter call?,s25_5,baseline_embedded,quest_deepest,The lobbyist,The senator
+The voter called the lobbyist that persuaded the senator that spoke.,Who did the lobbyist persuade?,s25_6,baseline_embedded,quest_middle,The senator,The voter
+The mountaineer that the guide that the photographer hired led slipped.,Who did the photographer hire?,s26_1,double_center_embedded,quest_deepest,The guide,The mountaineer
+The mountaineer that the guide that the photographer hired led slipped.,Who did the guide lead?,s26_2,double_center_embedded,quest_middle,The mountaineer,The photographer
+The guide that led the mountaineer that slipped was hired by the photographer.,Who did the photographer hire?,s26_3,nested_clause_embedded,quest_deepest,The guide,The mountaineer
+The guide that led the mountaineer that slipped was hired by the photographer.,Who did the guide lead?,s26_4,nested_clause_embedded,quest_middle,The mountaineer,The photographer
+The photographer hired the guide that led the mountaineer that slipped.,Who did the photographer hire?,s26_5,baseline_embedded,quest_deepest,The guide,The mountaineer
+The photographer hired the guide that led the mountaineer that slipped.,Who did the guide lead?,s26_6,baseline_embedded,quest_middle,The mountaineer,The photographer
+The banker that the attorney that the journalist interviewed represented coughed.,Who did the journalist interview?,s27_1,double_center_embedded,quest_deepest,The attorney,The banker
+The banker that the attorney that the journalist interviewed represented coughed.,Who did the attorney represent?,s27_2,double_center_embedded,quest_middle,The banker,The journalist
+The attorney that represented the banker that coughed was interviewed by the journalist.,Who did the journalist interview?,s27_3,nested_clause_embedded,quest_deepest,The attorney,The banker
+The attorney that represented the banker that coughed was interviewed by the journalist.,Who did the attorney represent?,s27_4,nested_clause_embedded,quest_middle,The banker,The journalist
+The journalist interviewed the attorney that represented the banker that coughed.,Who did the journalist interview?,s27_5,baseline_embedded,quest_deepest,The attorney,The banker
+The journalist interviewed the attorney that represented the banker that coughed.,Who did the attorney represent?,s27_6,baseline_embedded,quest_middle,The banker,The journalist
+The firefighter that the medic that the witness thanked rescued smiled.,Who did the witness thank?,s28_1,double_center_embedded,quest_deepest,The medic,The firefighter
+The firefighter that the medic that the witness thanked rescued smiled.,Who did the medic rescue?,s28_2,double_center_embedded,quest_middle,The firefighter,The witness
+The medic that rescued the firefighter that smiled was thanked by the witness.,Who did the witness thank?,s28_3,nested_clause_embedded,quest_deepest,The medic,The firefighter
+The medic that rescued the firefighter that smiled was thanked by the witness.,Who did the medic rescue?,s28_4,nested_clause_embedded,quest_middle,The firefighter,The witness
+The witness thanked the medic that rescued the firefighter that smiled.,Who did the witness thank?,s28_5,baseline_embedded,quest_deepest,The medic,The firefighter
+The witness thanked the medic that rescued the firefighter that smiled.,Who did the medic rescue?,s28_6,baseline_embedded,quest_middle,The firefighter,The witness
+The merchant that the broker that the customer trusted advised laughed.,Who did the customer trust?,s29_1,double_center_embedded,quest_deepest,The broker,The merchant
+The merchant that the broker that the customer trusted advised laughed.,Who did the broker advise?,s29_2,double_center_embedded,quest_middle,The merchant,The customer
+The broker that advised the merchant that laughed was trusted by the customer.,Who did the customer trust?,s29_3,nested_clause_embedded,quest_deepest,The broker,The merchant
+The broker that advised the merchant that laughed was trusted by the customer.,Who did the broker advise?,s29_4,nested_clause_embedded,quest_middle,The merchant,The customer
+The customer trusted the broker that advised the merchant that laughed.,Who did the customer trust?,s29_5,baseline_embedded,quest_deepest,The broker,The merchant
+The customer trusted the broker that advised the merchant that laughed.,Who did the broker advise?,s29_6,baseline_embedded,quest_middle,The merchant,The customer
+The king that the advisor that the noble criticized guided wept.,Who did the noble criticize?,s30_1,double_center_embedded,quest_deepest,The advisor,The king
+The king that the advisor that the noble criticized guided wept.,Who did the advisor guide?,s30_2,double_center_embedded,quest_middle,The king,The noble
+The advisor that guided the king that wept was criticized by the noble.,Who did the noble criticize?,s30_3,nested_clause_embedded,quest_deepest,The advisor,The king
+The advisor that guided the king that wept was criticized by the noble.,Who did the advisor guide?,s30_4,nested_clause_embedded,quest_middle,The king,The noble
+The noble criticized the advisor that guided the king that wept.,Who did the noble criticize?,s30_5,baseline_embedded,quest_deepest,The advisor,The king
+The noble criticized the advisor that guided the king that wept.,Who did the advisor guide?,s30_6,baseline_embedded,quest_middle,The king,The noble
+The magician that the assistant that the child admired helped bowed.,Who did the child admire?,s31_1,double_center_embedded,quest_deepest,The assistant,The magician
+The magician that the assistant that the child admired helped bowed.,Who did the assistant help?,s31_2,double_center_embedded,quest_middle,The magician,The child
+The assistant that helped the magician that bowed was admired by the child.,Who did the child admire?,s31_3,nested_clause_embedded,quest_deepest,The assistant,The magician
+The assistant that helped the magician that bowed was admired by the child.,Who did the assistant help?,s31_4,nested_clause_embedded,quest_middle,The magician,The child
+The child admired the assistant that helped the magician that bowed.,Who did the child admire?,s31_5,baseline_embedded,quest_deepest,The assistant,The magician
+The child admired the assistant that helped the magician that bowed.,Who did the assistant help?,s31_6,baseline_embedded,quest_middle,The magician,The child
+The umpire that the commentator that the player applauded criticized frowned.,Who did the player applaude?,s32_1,double_center_embedded,quest_deepest,The commentator,The umpire
+The umpire that the commentator that the player applauded criticized frowned.,Who did the commentator criticize?,s32_2,double_center_embedded,quest_middle,The umpire,The player
+The commentator that criticized the umpire that frowned was applauded by the player.,Who did the player applaude?,s32_3,nested_clause_embedded,quest_deepest,The commentator,The umpire
+The commentator that criticized the umpire that frowned was applauded by the player.,Who did the commentator criticize?,s32_4,nested_clause_embedded,quest_middle,The umpire,The player
+The player applauded the commentator that criticized the umpire that frowned.,Who did the player applaude?,s32_5,baseline_embedded,quest_deepest,The commentator,The umpire
+The player applauded the commentator that criticized the umpire that frowned.,Who did the commentator criticize?,s32_6,baseline_embedded,quest_middle,The umpire,The player
+The biologist that the curator that the volunteer assisted guided sneezed.,Who did the volunteer assisted?,s33_1,double_center_embedded,quest_deepest,The curator,The biologist
+The biologist that the curator that the volunteer assisted guided sneezed.,Who did the curator guide?,s33_2,double_center_embedded,quest_middle,The biologist,The volunteer
+The curator that guided the biologist that sneezed was assisted by the volunteer.,Who did the volunteer assisted?,s33_3,nested_clause_embedded,quest_deepest,The curator,The biologist
+The curator that guided the biologist that sneezed was assisted by the volunteer.,Who did the curator guide?,s33_4,nested_clause_embedded,quest_middle,The biologist,The volunteer
+The volunteer assisted the curator that guided the biologist that sneezed.,Who did the volunteer assisted?,s33_5,baseline_embedded,quest_deepest,The curator,The biologist
+The volunteer assisted the curator that guided the biologist that sneezed.,Who did the curator guide?,s33_6,baseline_embedded,quest_middle,The biologist,The volunteer
+The pianist that the tutor that the student hired trained smiled.,Who did the student hire?,s34_1,double_center_embedded,quest_deepest,The tutor,The pianist
+The pianist that the tutor that the student hired trained smiled.,Who did the tutor train?,s34_2,double_center_embedded,quest_middle,The pianist,The student
+The tutor that trained the student that smiled was hired by the parent.,Who did the student hire?,s34_3,nested_clause_embedded,quest_deepest,The tutor,The pianist
+The tutor that trained the student that smiled was hired by the parent.,Who did the tutor train?,s34_4,nested_clause_embedded,quest_middle,The pianist,The student
+The student hired the tutor that trained the pianist that smiled.,Who did the student hire?,s34_5,baseline_embedded,quest_deepest,The tutor,The pianist
+The student hired the tutor that trained the pianist that smiled.,Who did the tutor train?,s34_6,baseline_embedded,quest_middle,The pianist,The student
+The carpenter that the foreman that the architect hired managed hammered.,Who did the architect hire?,s35_1,double_center_embedded,quest_deepest,The foreman,The carpenter
+The carpenter that the foreman that the architect hired managed hammered.,Who did the foreman manage?,s35_2,double_center_embedded,quest_middle,The carpenter,The architect
+The foreman that managed the carpenter that hammered was hired by the architect.,Who did the architect hire?,s35_3,nested_clause_embedded,quest_deepest,The foreman,The carpenter
+The foreman that managed the carpenter that hammered was hired by the architect.,Who did the foreman manage?,s35_4,nested_clause_embedded,quest_middle,The carpenter,The architect
+The architect hired the foreman that managed the carpenter that hammered.,Who did the architect hire?,s35_5,baseline_embedded,quest_deepest,The foreman,The carpenter
+The architect hired the foreman that managed the carpenter that hammered.,Who did the foreman manage?,s35_6,baseline_embedded,quest_middle,The carpenter,The architect
+The minister that the advisor that the secretary contacted briefed coughed.,Who did the secretary contact?,s36_1,double_center_embedded,quest_deepest,The advisor,The minister
+The minister that the advisor that the secretary contacted briefed coughed.,Who did the advisor brief?,s36_2,double_center_embedded,quest_middle,The minister,The citizen
+The secretary that briefed the minister that coughed was contacted by the citizen.,Who did the secretary contact?,s36_3,nested_clause_embedded,quest_deepest,The advisor,The minister
+The secretary that briefed the minister that coughed was contacted by the citizen.,Who did the advisor brief?,s36_4,nested_clause_embedded,quest_middle,The minister,The citizen
+The citizen contacted the secretary that briefed the minister that coughed.,Who did the secretary contact?,s36_5,baseline_embedded,quest_deepest,The advisor,The minister
+The citizen contacted the secretary that briefed the minister that coughed.,Who did the advisor brief?,s36_6,baseline_embedded,quest_middle,The minister,The citizen
+The hiker that the ranger that the tourist consulted escorted slipped.,Who did the tourist consult?,s37_1,double_center_embedded,quest_deepest,The ranger,The hiker
+The hiker that the ranger that the tourist consulted escorted slipped.,Who did the ranger escort?,s37_2,double_center_embedded,quest_middle,The hiker,The tourist
+The ranger that escorted the hiker that slipped was consulted by the tourist.,Who did the tourist consult?,s37_3,nested_clause_embedded,quest_deepest,The ranger,The hiker
+The ranger that escorted the hiker that slipped was consulted by the tourist.,Who did the ranger escort?,s37_4,nested_clause_embedded,quest_middle,The hiker,The tourist
+The tourist consulted the ranger that escorted the hiker that slipped.,Who did the tourist consult?,s37_5,baseline_embedded,quest_deepest,The ranger,The hiker
+The tourist consulted the ranger that escorted the hiker that slipped.,Who did the ranger escort?,s37_6,baseline_embedded,quest_middle,The hiker,The tourist
+The clerk that the supervisor that the auditor evaluated trained yawned.,Who did the auditor evaluate?,s38_1,double_center_embedded,quest_deepest,The supervisor,The clerk
+The clerk that the supervisor that the auditor evaluated trained yawned.,Who did the supervisor train?,s38_2,double_center_embedded,quest_middle,The clerk,The auditor
+ The supervisor that trained the clerk that yawned was evaluated by the auditor.,Who did the auditor evaluate?,s38_3,nested_clause_embedded,quest_deepest,The supervisor,The clerk
+ The supervisor that trained the clerk that yawned was evaluated by the auditor.,Who did the supervisor train?,s38_4,nested_clause_embedded,quest_middle,The clerk,The auditor
+The auditor evaluated the supervisor that trained the clerk that yawned.,Who did the auditor evaluate?,s38_5,baseline_embedded,quest_deepest,The supervisor,The clerk
+The auditor evaluated the supervisor that trained the clerk that yawned.,Who did the supervisor train?,s38_6,baseline_embedded,quest_middle,The clerk,The auditor
+The courier that the dispatcher that the customer called disliked sighed.,Who did the customer call?,s39_1,double_center_embedded,quest_deepest,The dispatcher,The courier
+The courier that the dispatcher that the customer called disliked sighed.,Who did the dispatcher dislike?,s39_2,double_center_embedded,quest_middle,The courier,The customer
+The dispatcher that disliked the courier that sighed was called by the customer.,Who did the customer call?,s39_3,nested_clause_embedded,quest_deepest,The dispatcher,The courier
+The dispatcher that disliked the courier that sighed was called by the customer.,Who did the dispatcher dislike?,s39_4,nested_clause_embedded,quest_middle,The courier,The customer
+The customer called the dispatcher that disliked the courier that sighed.,Who did the customer call?,s39_5,baseline_embedded,quest_deepest,The dispatcher,The courier
+The customer called the dispatcher that disliked the courier that sighed.,Who did the dispatcher dislike?,s39_6,baseline_embedded,quest_middle,The courier,The customer
+The monk that the scholar that the pilgrim visited guided meditated.,Who did the pilgrim visit?,s40_1,double_center_embedded,quest_deepest,The scholar,The monk
+The monk that the scholar that the pilgrim visited guided meditated.,Who did the scholar guide?,s40_2,double_center_embedded,quest_middle,The monk,The pilgrim
+The scholar that guided the monk that meditated was visited by the pilgrim.,Who did the pilgrim visit?,s40_3,nested_clause_embedded,quest_deepest,The scholar,The monk
+The scholar that guided the monk that meditated was visited by the pilgrim.,Who did the scholar guide?,s40_4,nested_clause_embedded,quest_middle,The monk,The pilgrim
+The pilgrim visited the scholar that guided the monk that meditated.,Who did the pilgrim visit?,s40_5,baseline_embedded,quest_deepest,The scholar,The monk
+The pilgrim visited the scholar that guided the monk that meditated.,Who did the scholar guide?,s40_6,baseline_embedded,quest_middle,The monk,The pilgrim

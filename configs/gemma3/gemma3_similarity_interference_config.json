@@ -1,0 +1,66 @@
+{
+    "data_path": "data/gordon_exp_new.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "question_type": "question",
+    "model_args": [
+        {
+            "model_name": "google/gemma-3-1b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-1b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-1b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-1b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-4b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-4b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-4b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-4b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-12b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-12b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-12b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-12b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes_question.json",
+    "results_path": "results/llm_results/qwen3_similarity_interference.csv"
+}

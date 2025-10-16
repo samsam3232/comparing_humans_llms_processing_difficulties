@@ -1,0 +1,25 @@
+{
+    "data_path": "data/extended_gardenpath_experiments.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+            "open_source": true
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/deepseek_large/subj_obj.csv"
+}

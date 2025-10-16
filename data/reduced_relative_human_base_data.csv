@@ -1,0 +1,161 @@
+sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer,gp_noun,gp_verb,reduced_verb
+The chef hired last month worked overtime.,Did the chef hire someone?,s1_1,reduced_relative_gp,gp_question,No,Yes,chef,hired,worked
+The chef hired last month worked overtime.,Did the chef work overtime?,s1_2,reduced_relative_gp,simple_question,Yes,No,chef,hired,worked
+The chef which was hired last month worked overtime.,Did the chef hire someone?,s1_3,reduced_relative_nongp,gp_question,No,Yes,chef,hired,worked
+The chef which was hired last month worked overtime.,Did the chef work overtime?,s1_4,reduced_relative_nongp,simple_question,Yes,No,chef,hired,worked
+The committee selected this morning met the candidates.,Did the committe select someone?,s2_1,reduced_relative_gp,gp_question,No,Yes,committee,selected,met
+The committee selected this morning met the candidates.,Did the committe meet the candidates?,s2_2,reduced_relative_gp,simple_question,Yes,No,committee,selected,met
+The committee which was selected this morning met the candidates.,Did the committe select someone?,s2_3,reduced_relative_nongp,gp_question,No,Yes,committee,selected,met
+The committee which was selected this morning met the candidates.,Did the committe meet the candidates?,s2_4,reduced_relative_nongp,simple_question,Yes,No,committee,selected,met
+The teachers praised in the review felt encouraged.,Did the teachers praise someone?,s3_1,reduced_relative_gp,gp_question,No,Yes,teachers,praised,felt
+The teachers praised in the review felt encouraged.,Did the teachers feel encouraged?,s3_2,reduced_relative_gp,simple_question,Yes,No,teachers,praised,felt
+The teachers which were praised in the review felt encouraged.,Did the teachers praise someone?,s3_3,reduced_relative_nongp,gp_question,No,Yes,teachers,praised,felt
+The teachers which were praised in the review felt encouraged.,Did the teachers feel encouraged?,s3_4,reduced_relative_nongp,simple_question,Yes,No,teachers,praised,felt
+The staff appointed last week started work.,Did the staff appoint someone?,s4_1,reduced_relative_gp,gp_question,No,Yes,staff,appointed,started
+The staff appointed last week started work.,Did the staff start work?,s4_2,reduced_relative_gp,simple_question,Yes,No,staff,appointed,started
+The staff which was appointed last week started work.,Did the staff appoint someone?,s4_3,reduced_relative_nongp,gp_question,No,Yes,staff,appointed,started
+The staff which was appointed last week started work.,Did the staff start work?,s4_4,reduced_relative_nongp,simple_question,Yes,No,staff,appointed,started
+The scientist nominated for the award gave a speech.,Did the scientist nominate someone?,s5_1,reduced_relative_gp,gp_question,No,Yes,scientist,nominated,gave
+The scientist nominated for the award gave a speech.,Did the scientist give a speech?,s5_2,reduced_relative_gp,simple_question,Yes,No,scientist,nominated,gave
+The scientist which was nominated for the award gave a speech.,Did the scientist nominate someone?,s5_3,reduced_relative_nongp,gp_question,No,Yes,scientist,nominated,gave
+The scientist which was nominated for the award gave a speech.,Did the scientist give a speech?,s5_4,reduced_relative_nongp,simple_question,Yes,No,scientist,nominated,gave
+The coach trained overseas shouted at its team.,Did the coach train someone?,s6_1,reduced_relative_gp,gp_question,No,Yes,coach,trained,shouted
+The coach trained overseas shouted at its team.,Did the coach shout at its team?,s6_2,reduced_relative_gp,simple_question,Yes,No,coach,trained,shouted
+The coach which was trained overseas shouted at its team.,Did the coach train someone?,s6_3,reduced_relative_nongp,gp_question,No,Yes,coach,trained,shouted
+The coach which was trained overseas shouted at its team.,Did the coach shout at its team?,s6_4,reduced_relative_nongp,simple_question,Yes,No,coach,trained,shouted
+The officers promoted this year attended the ceremony.,Did the officers promote someone?,s7_1,reduced_relative_gp,gp_question,No,Yes,officers,promoted,attended
+The officers promoted this year attended the ceremony.,Did the officers attend the ceremony?,s7_2,reduced_relative_gp,simple_question,Yes,No,officers,promoted,attended
+The officers which were promoted this year attended the ceremony.,Did the officers promote someone?,s7_3,reduced_relative_nongp,gp_question,No,Yes,officers,promoted,attended
+The officers which were promoted this year attended the ceremony.,Did the officers attend the ceremony?,s7_4,reduced_relative_nongp,simple_question,Yes,No,officers,promoted,attended
+The directors elected in 2020 resigned.,Did the directors elect someone?,s8_1,reduced_relative_gp,gp_question,No,Yes,directors,elected,resigned
+The directors elected in 2020 resigned.,Did the directors resign?,s8_2,reduced_relative_gp,simple_question,Yes,No,directors,elected,resigned
+The directors which were elected in 2020 resigned.,Did the directors elect someone?,s8_3,reduced_relative_nongp,gp_question,No,Yes,directors,elected,resigned
+The directors which were elected in 2020 resigned.,Did the directors resign?,s8_4,reduced_relative_nongp,simple_question,Yes,No,directors,elected,resigned
+The manager interviewed for the position seemed qualified.,Did the manager interview someone?,s9_1,reduced_relative_gp,gp_question,No,Yes,manager,interviewed,seemed
+The manager interviewed for the position seemed qualified.,Did the manager seem qualified?,s9_2,reduced_relative_gp,simple_question,Yes,No,manager,interviewed,seemed
+The manager which was interviewed for the position seemed qualified.,Did the manager interview someone?,s9_3,reduced_relative_nongp,gp_question,No,Yes,manager,interviewed,seemed
+The manager which was interviewed for the position seemed qualified.,Did the manager seem qualified?,s9_4,reduced_relative_nongp,simple_question,Yes,No,manager,interviewed,seemed
+The artists commissioned for the sculpture received awards.,Did the artists commission someone?,s10_1,reduced_relative_gp,gp_question,No,Yes,artists,commissioned,received
+The artists commissioned for the sculpture received awards.,Did the artists receive awards?,s10_2,reduced_relative_gp,simple_question,Yes,No,artists,commissioned,received
+The artists which were commissioned for the sculpture received awards.,Did the artists commission someone?,s10_3,reduced_relative_nongp,gp_question,No,Yes,artists,commissioned,received
+The artists which were commissioned for the sculpture received awards.,Did the artists receive awards?,s10_4,reduced_relative_nongp,simple_question,Yes,No,artists,commissioned,received
+The policemen dispatched yesterday found violations.,Did the policemen dispatch someone?,s11_1,reduced_relative_gp,gp_question,No,Yes,policemen,dispatched,found
+The policemen dispatched yesterday found violations.,Did the policemen find violations?,s11_2,reduced_relative_gp,simple_question,Yes,No,policemen,dispatched,found
+The policemen which were dispatched yesterday found violations.,Did the policemen dispatch someone?,s11_3,reduced_relative_nongp,gp_question,No,Yes,policemen,dispatched,found
+The policemen which were dispatched yesterday found violations.,Did the policemen find violations?,s11_4,reduced_relative_nongp,simple_question,Yes,No,policemen,dispatched,found
+The lawyer consulted for free gained experience.,Did the lawyer consult someone?,s12_1,reduced_relative_gp,gp_question,No,Yes,lawyer,consulted,gained
+The lawyer consulted for free gained experience.,Did the lawyer gain experience?,s12_2,reduced_relative_gp,simple_question,Yes,No,lawyer,consulted,gained
+The lawyer which was consulted for free gained experience.,Did the lawyer consult someone?,s12_3,reduced_relative_nongp,gp_question,No,Yes,lawyer,consulted,gained
+The lawyer which was consulted for free gained experience.,Did the lawyer gain experience?,s12_4,reduced_relative_nongp,simple_question,Yes,No,lawyer,consulted,gained
+The teachers rewarded with bonuses improved morale.,Did the teachers reward someone?,s13_1,reduced_relative_gp,gp_question,No,Yes,teachers,rewarded,improved
+The teachers rewarded with bonuses improved morale.,Did the teachers improve morale?,s13_2,reduced_relative_gp,simple_question,Yes,No,teachers,rewarded,improved
+The teachers which were rewarded with bonuses improved morale.,Did the teachers reward someone?,s13_3,reduced_relative_nongp,gp_question,No,Yes,teachers,rewarded,improved
+The teachers which were rewarded with bonuses improved morale.,Did the teachers improve morale?,s13_4,reduced_relative_nongp,simple_question,Yes,No,teachers,rewarded,improved
+The robots manufactured last quarter malfunctioned.,Did the robots manufacture something?,s14_1,reduced_relative_gp,gp_question,No,Yes,robots,manufactured,malfunctioned
+The robots manufactured last quarter malfunctioned.,Did the robots malfunction?,s14_2,reduced_relative_gp,simple_question,Yes,No,robots,manufactured,malfunctioned
+The robots which were manufactured last quarter malfunctioned.,Did the robots manufacture something?,s14_3,reduced_relative_nongp,gp_question,No,Yes,robots,manufactured,malfunctioned
+The robots which were manufactured last quarter malfunctioned.,Did the robots malfunction?,s14_4,reduced_relative_nongp,simple_question,Yes,No,robots,manufactured,malfunctioned
+The doctor tested last week gave out prescriptions.,Did the doctor test someone?,s15_1,reduced_relative_gp,gp_question,No,Yes,doctor,tested,gave out
+The doctor tested last week gave out prescriptions.,Did the doctor give out prescriptions?,s15_2,reduced_relative_gp,simple_question,Yes,No,doctor,tested,gave out
+The doctor which was tested last week gave out prescriptions.,Did the doctor test someone?,s15_3,reduced_relative_nongp,gp_question,No,Yes,doctor,tested,gave out
+The doctor which was tested last week gave out prescriptions.,Did the doctor give out prescriptions?,s15_4,reduced_relative_nongp,simple_question,Yes,No,doctor,tested,gave out
+The editor published this month received praise.,Did the editor publish someone?,s16_1,reduced_relative_gp,gp_question,No,Yes,editor,published,received
+The editor published this month received praise.,Did the editor receive praise?,s16_2,reduced_relative_gp,simple_question,Yes,No,editor,published,received
+The editor which was published this month received praise.,Did the editor publish someone?,s16_3,reduced_relative_nongp,gp_question,No,Yes,editor,published,received
+The editor which was published this month received praise.,Did the editor receive praise?,s16_4,reduced_relative_nongp,simple_question,Yes,No,editor,published,received
+The manager blamed after the incident left the office.,Did the manager blame someone?,s17_1,reduced_relative_gp,gp_question,No,Yes,manager,blamed,left
+The manager blamed after the incident left the office.,Did the manager leave the office?,s17_2,reduced_relative_gp,simple_question,Yes,No,manager,blamed,left
+The manager which was blamed after the incident left the office.,Did the manager blame someone?,s17_3,reduced_relative_nongp,gp_question,No,Yes,manager,blamed,left
+The manager which was blamed after the incident left the office.,Did the manager leave the office?,s17_4,reduced_relative_nongp,simple_question,Yes,No,manager,blamed,left
+The soldiers attacked at midnight held their ground.,Did the soldiers attack someone?,s18_1,reduced_relative_gp,gp_question,No,Yes,soldiers,attacked,held
+The soldiers attacked at midnight held their ground.,Did the soldiers hold their ground?,s18_2,reduced_relative_gp,simple_question,Yes,No,soldiers,attacked,held
+The soldiers which were attacked at midnight held their ground.,Did the soldiers attack someone?,s18_3,reduced_relative_nongp,gp_question,No,Yes,soldiers,attacked,held
+The soldiers which were attacked at midnight held their ground.,Did the soldiers hold their ground?,s18_4,reduced_relative_nongp,simple_question,Yes,No,soldiers,attacked,held
+The workers replaced during the strike returned to their posts.,Did the workers replace someone?,s19_1,reduced_relative_gp,gp_question,No,Yes,workers,replaced,returned
+The workers replaced during the strike returned to their posts.,Did the workers return to their posts?,s19_2,reduced_relative_gp,simple_question,Yes,No,workers,replaced,returned
+The workers which were replaced during the strike returned to their posts.,Did the workers replace someone?,s19_3,reduced_relative_nongp,gp_question,No,Yes,workers,replaced,returned
+The workers which were replaced during the strike returned to their posts.,Did the workers return to their posts?,s19_4,reduced_relative_nongp,simple_question,Yes,No,workers,replaced,returned
+The professor reviewed last year received a prize.,Did the professor review someone?,s20_1,reduced_relative_gp,gp_question,No,Yes,professor,reviewed,received
+The professor reviewed last year received a prize.,Did the professor receive a prize?,s20_2,reduced_relative_gp,simple_question,Yes,No,professor,reviewed,received
+The professor which was reviewed last year received a prize.,Did the professor review someone?,s20_3,reduced_relative_nongp,gp_question,No,Yes,professor,reviewed,received
+The professor which was reviewed last year received a prize.,Did the professor receive a prize?,s20_4,reduced_relative_nongp,simple_question,Yes,No,professor,reviewed,received
+The firefighters instructed during orientation conducted drills.,Did the firefighters instruct someone?,s21_1,reduced_relative_gp,gp_question,No,Yes,firefighters,instrcuted,conducted
+The firefighters instructed during orientation conducted drills.,Did the firefighters conduct drills?,s21_2,reduced_relative_gp,simple_question,Yes,No,firefighters,instrcuted,conducted
+The firefighters which were instructed during orientation conducted drills.,Did the firefighters instruct someone?,s21_3,reduced_relative_nongp,gp_question,No,Yes,firefighters,instrcuted,conducted
+The firefighters which were instructed during orientation conducted drills.,Did the firefighters conduct drills?,s21_4,reduced_relative_nongp,simple_question,Yes,No,firefighters,instrcuted,conducted
+The mentors guided through the program offered feedback.,Did the mentors guide someone?,s22_1,reduced_relative_gp,gp_question,No,Yes,mentors,guided,offered
+The mentors guided through the program offered feedback.,Did the mentors offer feedback?,s22_2,reduced_relative_gp,simple_question,Yes,No,mentors,guided,offered
+The mentors which were guided through the program offered feedback.,Did the mentors guide someone?,s22_3,reduced_relative_nongp,gp_question,No,Yes,mentors,guided,offered
+The mentors which were guided through the program offered feedback.,Did the mentors offer feedback?,s22_4,reduced_relative_nongp,simple_question,Yes,No,mentors,guided,offered
+The headhunter recruited last week looked for candidates.,Did the headhunter recruit someone?,s23_1,reduced_relative_gp,gp_question,No,Yes,headhunter,recruited,looked for
+The headhunter recruited last week looked for candidates.,Did the headhunter look for candidates?,s23_2,reduced_relative_gp,simple_question,Yes,No,headhunter,recruited,looked for
+The headhunter which was recruited last week looked for candidates.,Did the headhunter recruit someone?,s23_3,reduced_relative_nongp,gp_question,No,Yes,headhunter,recruited,looked for
+The headhunter which was recruited last week looked for candidates.,Did the headhunter look for candidates?,s23_4,reduced_relative_nongp,simple_question,Yes,No,headhunter,recruited,looked for
+The department merged last year diversified operations.,Did the department merge something?,s24_1,reduced_relative_gp,gp_question,No,Yes,department,merged,diversified
+The department merged last year diversified operations.,Did the department diversify operations?,s24_2,reduced_relative_gp,simple_question,Yes,No,department,merged,diversified
+The department which was merged last year diversified operations.,Did the department merge something?,s24_3,reduced_relative_nongp,gp_question,No,Yes,department,merged,diversified
+The department which was merged last year diversified operations.,Did the department diversify operations?,s24_4,reduced_relative_nongp,simple_question,Yes,No,department,merged,diversified
+The students surveyed for feedback passed the class.,Did the students survey someone?,s25_1,reduced_relative_gp,gp_question,No,Yes,students,surveyed,passed
+The students surveyed for feedback passed the class.,Did the students pass the class?,s25_2,reduced_relative_gp,simple_question,Yes,No,students,surveyed,passed
+The students which were surveyed for feedback passed the class.,Did the students survey someone?,s25_3,reduced_relative_nongp,gp_question,No,Yes,students,surveyed,passed
+The students which were surveyed for feedback passed the class.,Did the students pass the class?,s25_4,reduced_relative_nongp,simple_question,Yes,No,students,surveyed,passed
+The guides accompanied on the tour provided assistance.,Did the guides accompany someone?,s26_1,reduced_relative_gp,gp_question,No,Yes,guides,accompanied,provided
+The guides accompanied on the tour provided assistance.,Did the guides provide assistance?,s26_2,reduced_relative_gp,simple_question,Yes,No,guides,accompanied,provided
+The guides which were accompanied on the tour provided assistance.,Did the guides accompany someone?,s26_3,reduced_relative_nongp,gp_question,No,Yes,guides,accompanied,provided
+The guides which were accompanied on the tour provided assistance.,Did the guides provide assistance?,s26_4,reduced_relative_nongp,simple_question,Yes,No,guides,accompanied,provided
+The policeman arrested during the raid stole weapons.,Did the policeman arrest someone?,s27_1,reduced_relative_gp,gp_question,No,Yes,policeman,arrested,stole
+The policeman arrested during the raid stole weapons.,Did the policeman steal weapons?,s27_2,reduced_relative_gp,simple_question,Yes,No,policeman,arrested,stole
+The policeman which was arrested during the raid stole weapons.,Did the policeman arrest someone?,s27_3,reduced_relative_nongp,gp_question,No,Yes,policeman,arrested,stole
+The policeman which was arrested during the raid stole weapons.,Did the policeman steal weapons?,s27_4,reduced_relative_nongp,simple_question,Yes,No,policeman,arrested,stole
+The cat captured in the forest slept on the couch.,Did the cat capture something?,s28_1,reduced_relative_gp,gp_question,No,Yes,cat,captured,slept
+The cat captured in the forest slept on the couch.,Did the cat sleep on the couch?,s28_2,reduced_relative_gp,simple_question,Yes,No,cat,captured,slept
+The cat which was captured in the forest slept on the couch.,Did the cat capture something?,s28_3,reduced_relative_nongp,gp_question,No,Yes,cat,captured,slept
+The cat which was captured in the forest slept on the couch.,Did the cat sleep on the couch?,s28_4,reduced_relative_nongp,simple_question,Yes,No,cat,captured,slept
+The friends invited to the gala mingled with guests.,Did the friends invite someone?,s29_1,reduced_relative_gp,gp_question,No,Yes,friends,invited,mingled
+The friends invited to the gala mingled with guests.,Did the friends mingle with the guests?,s29_2,reduced_relative_gp,simple_question,Yes,No,friends,invited,mingled
+The friends which were invited to the gala mingled with guests.,Did the friends invite someone?,s29_3,reduced_relative_nongp,gp_question,No,Yes,friends,invited,mingled
+The friends which were invited to the gala mingled with guests.,Did the friends mingle with the guests?,s29_4,reduced_relative_nongp,simple_question,Yes,No,friends,invited,mingled
+The leaders inspired last year implemented reforms.,Did the leaders inspire someone?,s30_1,reduced_relative_gp,gp_question,No,Yes,leaders,inspired,implemented
+The leaders inspired last year implemented reforms.,Did the leaders implement reforms?,s30_2,reduced_relative_gp,simple_question,Yes,No,leaders,inspired,implemented
+The leaders which were inspired last year implemented reforms.,Did the leaders inspire someone?,s30_3,reduced_relative_nongp,gp_question,No,Yes,leaders,inspired,implemented
+The leaders which were inspired last year implemented reforms.,Did the leaders implement reforms?,s30_4,reduced_relative_nongp,simple_question,Yes,No,leaders,inspired,implemented
+The client thanked at the reception booked a boat trip.,Did the client thank someone?,s31_1,reduced_relative_gp,gp_question,No,Yes,client,thanked,booked
+The client thanked at the reception booked a boat trip.,Did the client book a boat trip?,s31_2,reduced_relative_gp,simple_question,Yes,No,client,thanked,booked
+The client which was thanked at the reception booked a boat trip.,Did the client thank someone?,s31_3,reduced_relative_nongp,gp_question,No,Yes,client,thanked,booked
+The client which was thanked at the reception booked a boat trip.,Did the client book a boat trip?,s31_4,reduced_relative_nongp,simple_question,Yes,No,client,thanked,booked
+The author criticized last week defended his work.,Did the author criticize something?,s32_1,reduced_relative_gp,gp_question,No,Yes,author,criticize,defend
+The author criticized last week defended his work.,Did the author defend his work?,s32_2,reduced_relative_gp,simple_question,Yes,No,author,criticize,defend
+The author which was criticized last week defended his work.,Did the author criticize something?,s32_3,reduced_relative_nongp,gp_question,No,Yes,author,criticize,defend
+The author which was criticized last week defended his work.,Did the author defend his work?,s32_4,reduced_relative_nongp,simple_question,Yes,No,author,criticize,defend
+The company financed this quarter expanded its reach.,Did the company finance something?,s33_1,reduced_relative_gp,gp_question,No,Yes,company,financed,expanded
+The company financed this quarter expanded its reach.,Did the company expand its reach?,s33_2,reduced_relative_gp,simple_question,Yes,No,company,financed,expanded
+The company which was financed this quarter expanded its reach.,Did the company finance something?,s33_3,reduced_relative_nongp,gp_question,No,Yes,company,financed,expanded
+The company which was financed this quarter expanded its reach.,Did the company expand its reach?,s33_4,reduced_relative_nongp,simple_question,Yes,No,company,financed,expanded
+The guest met at the conference called yesterday.,Did the guest meet someone?,s34_1,reduced_relative_gp,gp_question,No,Yes,guest,met,called
+The guest met at the conference called yesterday.,Did the guest call yesterday?,s34_2,reduced_relative_gp,simple_question,Yes,No,guest,met,called
+The guest which was met at the conference called yesterday.,Did the guest meet someone?,s34_3,reduced_relative_nongp,gp_question,No,Yes,guest,met,called
+The guest which was met at the conference called yesterday.,Did the guest call yesterday?,s34_4,reduced_relative_nongp,simple_question,Yes,No,guest,met,called
+The lawyers sued last year took on new cases.,Did the lawyers sue someone last year?,s35_1,reduced_relative_gp,gp_question,No,Yes,lawyers,sued,took on
+The lawyers sued last year took on new cases.,Did the lawyers take on new cases?,s35_2,reduced_relative_gp,simple_question,Yes,No,lawyers,sued,took on
+The lawyers which were sued last year took on new cases.,Did the lawyers sue someone last year?,s35_3,reduced_relative_nongp,gp_question,No,Yes,lawyers,sued,took on
+The lawyers which were sued last year took on new cases.,Did the lawyers take on new cases?,s35_4,reduced_relative_nongp,simple_question,Yes,No,lawyers,sued,took on
+The doctors treated at the clinic improved quickly.,Did the doctors treat someone?,s36_1,reduced_relative_gp,gp_question,No,Yes,doctors,treated,improved
+The doctors treated at the clinic improved quickly.,Did the doctors improve?,s36_2,reduced_relative_gp,simple_question,Yes,No,doctors,treated,improved
+The doctors which were treated at the clinic improved quickly.,Did the doctors treat someone?,s36_3,reduced_relative_nongp,gp_question,No,Yes,doctors,treated,improved
+The doctors which were treated at the clinic improved quickly.,Did the doctors improve?,s36_4,reduced_relative_nongp,simple_question,Yes,No,doctors,treated,improved
+The florist sent the flowers was pleased.,Did the florist send the flowers?,s37_1,reduced_relative_gp,gp_question,No,Yes,florist,sent,pleased
+The florist sent the flowers was pleased.,Was the florist pleased?,s37_2,reduced_relative_gp,simple_question,Yes,No,florist,sent,pleased
+The florist which was sent the flowers was pleased.,Did the florist send the flowers?,s37_3,reduced_relative_nongp,gp_question,No,Yes,florist,sent,pleased
+The florist which was sent the flowers was pleased.,Was the florist pleased?,s37_4,reduced_relative_nongp,simple_question,Yes,No,florist,sent,pleased
+The screen displayed in the mall broke suddenly,Did the screen display something?,s38_1,reduced_relative_gp,gp_question,No,Yes,screen,displayed,broke
+The screen displayed in the mall broke suddenly,Did the screem break?,s38_2,reduced_relative_gp,simple_question,Yes,No,screen,displayed,broke
+The screen which was displayed in the mall broke suddenly,Did the screen display something?,s38_3,reduced_relative_nongp,gp_question,No,Yes,screen,displayed,broke
+The screen which was displayed in the mall broke suddenly,Did the screem break?,s38_4,reduced_relative_nongp,simple_question,Yes,No,screen,displayed,broke
+The fugitive wanted in Europe left the US.,Did the fugitive want something?,s39_1,reduced_relative_gp,gp_question,No,Yes,fugitive,wanted,left
+The fugitive wanted in Europe left the US.,Did the fugitive leave the US?,s39_2,reduced_relative_gp,simple_question,Yes,No,fugitive,wanted,left
+The fugitive which was wanted in Europe left the US.,Did the fugitive want something?,s39_3,reduced_relative_nongp,gp_question,No,Yes,fugitive,wanted,left
+The fugitive which was wanted in Europe left the US.,Did the fugitive leave the US?,s39_4,reduced_relative_nongp,simple_question,Yes,No,fugitive,wanted,left
+The father caught on camera drove too fast.,Did the father catch something?,s40_1,reduced_relative_gp,gp_question,No,Yes,father,caught,drove
+The father caught on camera drove too fast.,Did the father drive too fast?,s40_2,reduced_relative_gp,simple_question,Yes,No,father,caught,drove
+The father which was caught on camera drove too fast.,Did the father catch something?,s40_3,reduced_relative_nongp,gp_question,No,Yes,father,caught,drove
+The father which was caught on camera drove too fast.,Did the father drive too fast?,s40_4,reduced_relative_nongp,simple_question,Yes,No,father,caught,drove

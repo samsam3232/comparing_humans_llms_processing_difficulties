@@ -1,0 +1,64 @@
+{
+    "data_path": "experiments/massive_exp_05_25/data/llm_data/question_answering/nps_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "o3-mini",
+            "open_source": false,
+            "generation_args": {
+                "reasoning_effort": "low"
+            }
+        },
+        {
+            "model_name": "o3-mini",
+            "open_source": false,
+            "compute_type": "thinking",
+            "generation_args": {
+                "reasoning_effort": "high"
+            }
+        },
+        {
+            "model_name": "o3",
+            "open_source": false,
+            "generation_args": {
+                "reasoning_effort": "low"
+            }
+        },
+        {
+            "model_name": "o3",
+            "open_source": false,
+            "compute_type": "thinking",
+            "generation_args": {
+                "reasoning_effort": "high"
+            }
+        },
+        {
+            "model_name": "gpt-4o",
+            "open_source": false
+        },
+        {
+            "model_name": "o4-mini",
+            "open_source": false,
+            "generation_args": {
+                "reasoning_effort": "low"
+            }
+        },
+        {
+            "model_name": "o4-mini",
+            "open_source": false,
+            "compute_type": "thinking",
+            "generation_args": {
+                "reasoning_effort": "high"
+            }
+        },
+        {
+            "model_name": "gpt-4.1",
+            "open_source": false
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/openai/nps.csv"
+}

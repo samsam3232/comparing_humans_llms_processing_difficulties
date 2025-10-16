@@ -1,0 +1,41 @@
+{
+    "data_path": "data/npvp_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "meta-llama/Llama-3.2-90B-Vision",
+            "open_source": true,
+            "creation_args": {
+                "num_gpus": 3
+            }
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-90B-Vision",
+            "open_source": true,
+            "compute_type": "cot",
+            "creation_args": {
+                "num_gpus": 3
+            }
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+            "open_source": true,
+            "creation_args": {
+                "num_gpus": 3
+            }
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+            "open_source": true,
+            "compute_type": "cot",
+            "creation_args": {
+                "num_gpus": 3
+            }
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/llama_large/npvp.csv"
+}

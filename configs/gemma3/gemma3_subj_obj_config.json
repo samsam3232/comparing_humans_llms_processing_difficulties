@@ -1,0 +1,65 @@
+{
+    "data_path": "data/extended_gardenpath_experiments.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "google/gemma-3-1b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-1b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-1b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-1b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-4b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-4b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-4b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-4b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-12b-pt",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-12b-pt",
+            "open_source": true,
+            "compute_type": "cot"
+        },
+        {
+            "model_name": "google/gemma-3-12b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-3-12b-it",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/qwen3_subj_obj.csv"
+}

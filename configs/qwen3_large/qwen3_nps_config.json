@@ -1,0 +1,25 @@
+{
+    "data_path": "data/nps_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "Qwen/Qwen3-32B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen3-32B",
+            "open_source": true,
+            "compute_type": "thinking"
+        },
+        {
+            "model_name": "Qwen/Qwen3-32B",
+            "open_source": true,
+            "compute_type": "cot"
+        }
+    ],
+    "prefix_path": "prefixes/prefixes.json",
+    "results_path": "results/llm_results/qwen3_large/qwen3_nps.csv"
+}

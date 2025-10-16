@@ -1,0 +1,67 @@
+{
+    "id": "684b28d5604ffd9558df11a0",
+    "name": "Sentence comprehension NP/S",
+    "description": "<p>In this study you will need to answer a reading comprehension question about a single sentence.</p>",
+    "total_available_places": 1760,
+    "reward": 30,
+    "average_reward_per_hour": 688.0,
+    "external_study_url": "https://farm.pcibex.net/p/sTXZZk/?PROLIFIC_ID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}",
+    "device_compatibility": [
+        "desktop"
+    ],
+    "prolific_id_option": "url_parameters",
+    "project": "6855534992cc8a98e6d5264a",
+    "workspace": "63bfba033ffe318f602e0e63",
+    "completion_codes": [
+        {
+            "code": "C1BO33HT",
+            "code_type": "COMPLETED",
+            "actions": [
+                {
+                    "action": "AUTOMATICALLY_APPROVE"
+                }
+            ],
+            "actor": "participant"
+        }
+    ],
+    "filters": [
+        {
+            "filter_id": "current-country-of-residence",
+            "selected_values": [
+                "0",
+                "1"
+            ]
+        },
+        {
+            "filter_id": "first-language",
+            "selected_values": [
+                "18"
+            ]
+        },
+        {
+            "filter_id": "primary-language",
+            "selected_values": [
+                "19"
+            ]
+        },
+        {
+            "filter_id": "approval_rate",
+            "selected_range": {
+                "lower": 95,
+                "upper": 100
+            }
+        },
+        {
+            "filter_id": "approval_numbers",
+            "selected_range": {
+                "lower": 100,
+                "upper": 10000
+            }
+        }
+    ],
+    "submissions_config": {
+        "max_submissions_per_participant": 1,
+        "max_concurrent_submissions": -1
+    },
+    "estimated_completion_time": 2
+}

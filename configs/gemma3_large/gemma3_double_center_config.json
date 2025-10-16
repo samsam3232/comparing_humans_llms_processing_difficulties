@@ -1,0 +1,42 @@
+{
+    "data_path": "data/double_center_human_base_data.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "question_type": "question",
+    "model_args": [
+        {
+            "model_name": "google/gemma-3-27b-it",
+            "open_source": true,
+            "creation_args": {
+                "num_gpus": 2
+            }
+        },
+        {
+            "model_name": "google/gemma-3-27b-it",
+            "open_source": true,
+            "compute_type": "cot",
+            "creation_args": {
+                "num_gpus": 2
+            }
+        },
+        {
+            "model_name": "google/gemma-3-27b-pt",
+            "open_source": true,
+            "creation_args": {
+                "num_gpus": 2
+            }
+        },
+        {
+            "model_name": "google/gemma-3-27b-pt",
+            "open_source": true,
+            "compute_type": "cot",
+            "creation_args": {
+                "num_gpus": 2
+            }
+        }
+    ],
+    "prefix_path": "prefixes/prefixes_question.json",
+    "results_path": "results/llm_results/gemma3_large/double_center.csv"
+}

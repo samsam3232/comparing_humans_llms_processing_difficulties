@@ -1,0 +1,161 @@
+sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer
+No head injury is too trivial to be ignored.,Can you ignore head injuries?,s1_1,depth_charge,complex_question,Yes,No
+Every head injury is severe enough to be ignored.,Can you ignore head injuries?,s1_2,depth_charge_baseline,complex_question,Yes,No
+No head injury is too trivial to be treated.,Can you ignore head injuries?,s1_3,inv_depth_charge,complex_question,No,Yes
+Every head injury is severe enough to be treated.,Can you ignore head injuries?,s1_4,inv_depth_charge_baseline,complex_question,No,Yes
+No detail is too minor to be overlooked.,Can you overlook details?,s2_1,depth_charge,complex_question,Yes,No
+Every detail is important enough to be overlooked.,Can you overlook details?,s2_2,depth_charge_baseline,complex_question,Yes,No
+No detail is too minor to be minded.,Can you overlook details?,s2_3,inv_depth_charge,complex_question,No,Yes
+Every detail is important enough to be minded.,Can you overlook details?,s2_4,inv_depth_charge_baseline,complex_question,No,Yes
+No question is too simple to be dismissed.,Can you dismiss questions?,s3_1,depth_charge,complex_question,Yes,No
+Every question is complex enough to be dismissed.,Can you dismiss questions?,s3_2,depth_charge_baseline,complex_question,Yes,No
+No question is too simple to be answered.,Can you dismiss questions?,s3_3,inv_depth_charge,complex_question,No,Yes
+Every question is complex enough to be answered.,Can you dismiss questions?,s3_4,inv_depth_charge_baseline,complex_question,No,Yes
+No error is too small to be disregarded.,Can you disregard an error?,s4_1,depth_charge,complex_question,Yes,No
+Every error is large enough to be disregarded.,Can you disregard an error?,s4_2,depth_charge_baseline,complex_question,Yes,No
+No error is too small to be heeded.,Can you disregard an error?,s4_3,inv_depth_charge,complex_question,No,Yes
+Every error is large enough to be heeded.,Can you disregard an error?,s4_4,inv_depth_charge_baseline,complex_question,No,Yes
+No concern is too insignificant to be quashed.,Can you quash concern?,s5_1,depth_charge,complex_question,Yes,No
+Every concern is significant enough to be quashed.,Can you quash concern?,s5_2,depth_charge_baseline,complex_question,Yes,No
+No concern is too insignificant to be validated.,Can you quash concern?,s5_3,inv_depth_charge,complex_question,No,Yes
+Every concern is significant enough to be validated.,Can you quash concern?,s5_4,inv_depth_charge_baseline,complex_question,No,Yes
+No risk is too small to be unadressed.,Can you not address risks?,s6_1,depth_charge,complex_question,Yes,No
+Every risk is big enough to be unadressed.,Can you not address risks?,s6_2,depth_charge_baseline,complex_question,Yes,No
+No risk is too small to be adressed.,Can you not address risks?,s6_3,inv_depth_charge,complex_question,No,Yes
+Every risk is big enough to be adressed.,Can you not address risks?,s6_4,inv_depth_charge_baseline,complex_question,No,Yes
+No task is too easy to be neglected.,Can you neglect tasks?,s7_1,depth_charge,complex_question,Yes,No
+Every task is hard enough to be neglected.,Can you neglect tasks?,s7_2,depth_charge_baseline,complex_question,Yes,No
+No task is too easy to be done.,Can you neglect tasks?,s7_3,inv_depth_charge,complex_question,No,Yes
+Every task is hard enough to be done.,Can you neglect tasks?,s7_4,inv_depth_charge_baseline,complex_question,No,Yes
+No symptom is too mild to be overlooked.,Can you overlook symptoms?,s8_1,depth_charge,complex_question,Yes,No
+Every symptom is severe enough to be overlooked.,Can you overlook symptoms?,s8_2,depth_charge_baseline,complex_question,Yes,No
+No symptom is too mild to be observed.,Can you overlook symptoms?,s8_3,inv_depth_charge,complex_question,No,Yes
+Every symptom is severe enough to be observed.,Can you overlook symptoms?,s8_4,inv_depth_charge_baseline,complex_question,No,Yes
+No complaint is too trivial to be put aside.,Can you put aside complaints?,s9_1,depth_charge,complex_question,Yes,No
+Every complaint is serious enough to be put aside.,Can you put aside complaints?,s9_2,depth_charge_baseline,complex_question,Yes,No
+No complaint is too trivial to be acted on.,Can you put aside complaints?,s9_3,inv_depth_charge,complex_question,No,Yes
+Every complaint is serious enough to be acted on.,Can you put aside complaints?,s9_4,inv_depth_charge_baseline,complex_question,No,Yes
+No warning is too faint to be discounted.,Can you discount warnings?,s10_1,depth_charge,complex_question,Yes,No
+Every warning is clear enough to be discounted.,Can you discount warnings?,s10_2,depth_charge_baseline,complex_question,Yes,No
+No warning is too faint to be accounted.,Can you discount warnings?,s10_3,inv_depth_charge,complex_question,No,Yes
+Every warning is clear enough to be accounted.,Can you discount warnings?,s10_4,inv_depth_charge_baseline,complex_question,No,Yes
+No opportunity is too slight to be skipped.,Can you skip opportunities?,s11_1,depth_charge,complex_question,Yes,No
+Every opportunity is big enough to be skipped.,Can you skip opportunities?,s11_2,depth_charge_baseline,complex_question,Yes,No
+No opportunity is too slight to be taken.,Can you skip opportunities?,s11_3,inv_depth_charge,complex_question,No,Yes
+Every opportunity is big enough to be taken.,Can you skip opportunities?,s11_4,inv_depth_charge_baseline,complex_question,No,Yes
+No act of kindness is too small to be minimized.,Can you minimize acts of kindness?,s12_1,depth_charge,complex_question,Yes,No
+Every act of kindness is large enough to be minimized.,Can you minimize acts of kindness?,s12_2,depth_charge_baseline,complex_question,Yes,No
+No act of kindness is too small to be celebrated.,Can you minimize acts of kindness?,s12_3,inv_depth_charge,complex_question,No,Yes
+Every act of kindness is large enough to be celebrated.,Can you minimize acts of kindness?,s12_4,inv_depth_charge_baseline,complex_question,No,Yes
+No effort is too minor to be omitted.,Can you omit efforts?,s13_1,depth_charge,complex_question,Yes,No
+Every effort is major enough to be omitted.,Can you omit efforts?,s13_2,depth_charge_baseline,complex_question,Yes,No
+No effort is too minor to be mentionned.,Can you omit efforts?,s13_3,inv_depth_charge,complex_question,No,Yes
+Every effort is major enough to be mentionned.,Can you omit efforts?,s13_4,inv_depth_charge_baseline,complex_question,No,Yes
+No idea is too unconventional to be abandoned.,Can you abandon idea?,s14_1,depth_charge,complex_question,Yes,No
+Every idea is conventional enough to be abandoned.,Can you abandon idea?,s14_2,depth_charge_baseline,complex_question,Yes,No
+No idea is too unconventional to be pursued.,Can you abandon idea?,s14_3,inv_depth_charge,complex_question,No,Yes
+Every idea is conventional enough to be pursued.,Can you abandon idea?,s14_4,inv_depth_charge_baseline,complex_question,No,Yes
+No contribution is too insignificant to be snubbed.,Can you snub contributions?,s15_1,depth_charge,complex_question,Yes,No
+Every contribution is significant enough to be snubbed.,Can you snub contributions?,s15_2,depth_charge_baseline,complex_question,Yes,No
+No contribution is too insignificant to be appreciated.,Can you snub contributions?,s15_3,inv_depth_charge,complex_question,No,Yes
+Every contribution is significant enough to be appreciated.,Can you snub contributions?,s15_4,inv_depth_charge_baseline,complex_question,No,Yes
+No suggestion is too outlandish to be forgotten.,Can you forget suggestions?,s16_1,depth_charge,complex_question,Yes,No
+Every suggestion is ordinary enough to be forgotten.,Can you forget suggestions?,s16_2,depth_charge_baseline,complex_question,Yes,No
+No suggestion is too outlandish to be remembered.,Can you forget suggestions?,s16_3,inv_depth_charge,complex_question,No,Yes
+Every suggestion is ordinary enough to be remembered.,Can you forget suggestions?,s16_4,inv_depth_charge_baseline,complex_question,No,Yes
+No gesture is too subtle to be waved off.,Can you wave off gestures?,s17_1,depth_charge,complex_question,Yes,No
+Every gesture is obvious enough to be waved off.,Can you wave off gestures?,s17_2,depth_charge_baseline,complex_question,Yes,No
+No gesture is too subtle to be accepted.,Can you wave off gestures?,s17_3,inv_depth_charge,complex_question,No,Yes
+Every gesture is obvious enough to be accepted.,Can you wave off gestures?,s17_4,inv_depth_charge_baseline,complex_question,No,Yes
+No tradition is too new to be abandoned.,Can you abandon traditions?,s18_1,depth_charge,complex_question,Yes,No
+Every tradition is old enough to be abandoned.,Can you abandon traditions?,s18_2,depth_charge_baseline,complex_question,Yes,No
+No tradition is too new to be kept.,Can you abandon traditions?,s18_3,inv_depth_charge,complex_question,No,Yes
+Every tradition is old enough to be kept.,Can you abandon traditions?,s18_4,inv_depth_charge_baseline,complex_question,No,Yes
+No achievement is too modest to be unrecognized.,Can you not recognize achievements?,s19_1,depth_charge,complex_question,Yes,No
+Every achievement is great enough to be unrecognized.,Can you not recognize achievements?,s19_2,depth_charge_baseline,complex_question,Yes,No
+No achievement is too modest to be recognized.,Can you not recognize achievements?,s19_3,inv_depth_charge,complex_question,No,Yes
+Every achievement is great enough to be recognized.,Can you not recognize achievements?,s19_4,inv_depth_charge_baseline,complex_question,No,Yes
+No dream is too ambitious to be dropped.,Can you drop dreams?,s20_1,depth_charge,complex_question,Yes,No
+Every dream is unambitious enough to be dropped.,Can you drop dreams?,s20_2,depth_charge_baseline,complex_question,Yes,No
+No dream is too ambitious to be pursued.,Can you drop dreams?,s20_3,inv_depth_charge,complex_question,No,Yes
+Every dream is unambitious enough to be pursued.,Can you drop dreams?,s20_4,inv_depth_charge_baseline,complex_question,No,Yes
+No goal is too distant to be put aside.,Can you put aside goals?,s21_1,depth_charge,complex_question,Yes,No
+Every goal is close enough to be put aside.,Can you put aside goals?,s21_2,depth_charge_baseline,complex_question,Yes,No
+No goal is too distant to be advanced.,Can you put aside goals?,s21_3,inv_depth_charge,complex_question,No,Yes
+Every goal is close enough to be advanced.,Can you put aside goals?,s21_4,inv_depth_charge_baseline,complex_question,No,Yes
+No emotion is too fleeting to be set aside.,Can you set aside emotions?,s22_1,depth_charge,complex_question,Yes,No
+Every emotion is permanent enough to be set aside.,Can you set aside emotions?,s22_2,depth_charge_baseline,complex_question,Yes,No
+No emotion is too fleeting to be embraced.,Can you set aside emotions?,s22_3,inv_depth_charge,complex_question,No,Yes
+Every emotion is permanent enough to be embraced.,Can you set aside emotions?,s22_4,inv_depth_charge_baseline,complex_question,No,Yes
+No truth is too uncomfortable to be left out.,Can you leave out the truth?,s23_1,depth_charge,complex_question,Yes,No
+Every truth is comfortable enough to be left out.,Can you leave out the truth?,s23_2,depth_charge_baseline,complex_question,Yes,No
+No truth is too uncomfortable to be said.,Can you leave out the truth?,s23_3,inv_depth_charge,complex_question,No,Yes
+Every truth is comfortable enough to be said.,Can you leave out the truth?,s23_4,inv_depth_charge_baseline,complex_question,No,Yes
+No victory is too small to be minimized.,Can you minimize victories?,s24_1,depth_charge,complex_question,Yes,No
+Every victory is big enough to be minimized.,Can you minimize victories?,s24_2,depth_charge_baseline,complex_question,Yes,No
+No victory is too small to be emphasized.,Can you minimize victories?,s24_3,inv_depth_charge,complex_question,No,Yes
+Every victory is big enough to be emphasized.,Can you minimize victories?,s24_4,inv_depth_charge_baseline,complex_question,No,Yes
+No crime is too petty to be pardoned.,Can you pardon crimes?,s25_1,depth_charge,complex_question,Yes,No
+Every crime is serious enough to be pardoned.,Can you pardon crimes?,s25_2,depth_charge_baseline,complex_question,Yes,No
+No crime is too petty to be punished.,Can you pardon crimes?,s25_3,inv_depth_charge,complex_question,No,Yes
+Every crime is serious enough to be punished.,Can you pardon crimes?,s25_4,inv_depth_charge_baseline,complex_question,No,Yes
+No promise is too minor to be broken.,Can you break promises?,s26_1,depth_charge,complex_question,Yes,No
+Every promise is major enough to be broken.,Can you break promises?,s26_2,depth_charge_baseline,complex_question,Yes,No
+No promise is too minor to be kept.,Can you break promises?,s26_3,inv_depth_charge,complex_question,No,Yes
+Every promise is major enough to be kept.,Can you break promises?,s26_4,inv_depth_charge_baseline,complex_question,No,Yes
+No wound is too shallow to be left untreated.,Can you leave wounds untreated?,s27_1,depth_charge,complex_question,Yes,No
+Every wound is deep enough to be left untreated.,Can you leave wounds untreated?,s27_2,depth_charge_baseline,complex_question,Yes,No
+No wound is too shallow to be treated.,Can you leave wounds untreated?,s27_1,inv_depth_charge,complex_question,No,Yes
+Every wound is deep enough to be treated.,Can you leave wounds untreated?,s27_2,inv_depth_charge_baseline,complex_question,No,Yes
+No project is too useless to be neglected.,Can you neglect projects?,s28_1,depth_charge,complex_question,Yes,No
+Every project is useful enough to be neglected.,Can you neglect projects?,s28_2,depth_charge_baseline,complex_question,Yes,No
+No project is too useless to be advanced.,Can you neglect projects?,s28_3,inv_depth_charge,complex_question,No,Yes
+Every project is useful enough to be advanced.,Can you neglect projects?,s28_4,inv_depth_charge_baseline,complex_question,No,Yes
+No adventure is too dangerous to be ruled out.,Can you rule out adventures?,s29_1,depth_charge,complex_question,Yes,No
+Every adventure is harmless enough to be ruled out.,Can you rule out adventures?,s29_2,depth_charge_baseline,complex_question,Yes,No
+No adventure is too dangerous to be considered.,Can you rule out adventures?,s29_3,inv_depth_charge,complex_question,No,Yes
+Every adventure is harmless enough to be considered.,Can you rule out adventures?,s29_4,inv_depth_charge_baseline,complex_question,No,Yes
+No witness is too unreliable to be discounted.,Can you discount witnesses?,s30_1,depth_charge,complex_question,Yes,No
+Every witness is reliable enough to be discounted.,Can you discount witnesses?,s30_2,depth_charge_baseline,complex_question,Yes,No
+No witness is too unreliable to be heard.,Can you discount witnesses?,s30_3,inv_depth_charge,complex_question,No,Yes
+Every witness is reliable enough to be heard.,Can you discount witnesses?,s30_4,inv_depth_charge_baseline,complex_question,No,Yes
+No award is too minor to be looked past.,Can you look past awards?,s31_1,depth_charge,complex_question,Yes,No
+Every award is major enough to be looked past.,Can you look past awards?,s31_2,depth_charge_baseline,complex_question,Yes,No
+No award is too minor to be celebrated.,Can you look past awards?,s31_3,inv_depth_charge,complex_question,No,Yes
+Every award is major enough to be celebrated.,Can you look past awards?,s31_4,inv_depth_charge_baseline,complex_question,No,Yes
+No lesson is too unimportant to be skipped.,Can you skip lessons?,s32_1,depth_charge,complex_question,Yes,No
+Every lesson is important enough to be skipped.,Can you skip lessons?,s32_2,depth_charge_baseline,complex_question,Yes,No
+No lesson is too unimportant to be learned.,Can you skip lessons?,s32_3,inv_depth_charge,complex_question,No,Yes
+Every lesson is important enough to be learned.,Can you skip lessons?,s32_4,inv_depth_charge_baseline,complex_question,No,Yes
+No skill is too elementary to be snubbed.,Can you snub skills?,s33_1,depth_charge,complex_question,Yes,No
+Every skill is complicated enough to be snubbed.,Can you snub skills?,s33_2,depth_charge_baseline,complex_question,Yes,No
+No skill is too elementary to be valued.,Can you snub skills?,s33_3,inv_depth_charge,complex_question,No,Yes
+Every skill is complicated enough to be valued.,Can you snub skills?,s33_4,inv_depth_charge_baseline,complex_question,No,Yes
+No cause is too minor to be ditched.,Can you ditch causes?,s34_1,depth_charge,complex_question,Yes,No
+Every cause is major enough to be ditched.,Can you ditch causes?,s34_2,depth_charge_baseline,complex_question,Yes,No
+No cause is too minor to be supported.,Can you ditch causes?,s34_3,inv_depth_charge,complex_question,No,Yes
+Every cause is major enough to be supported.,Can you ditch causes?,s34_4,inv_depth_charge_baseline,complex_question,No,Yes
+No experiment is too basic to be left out.,Can you leave out experiments?,s35_1,depth_charge,complex_question,Yes,No
+Every experiment is complex enough to be left out.,Can you leave out experiments?,s35_2,depth_charge_baseline,complex_question,Yes,No
+No experiment is too basic to be performed.,Can you leave out experiments?,s35_3,inv_depth_charge,complex_question,No,Yes
+Every experiment is complex enough to be performed.,Can you leave out experiments?,s35_4,inv_depth_charge_baseline,complex_question,No,Yes
+No child is too mean to be ostracized.,Can you ostracize children?,s36_1,depth_charge,complex_question,Yes,No
+Every child is nice enough to be ostracized.,Can you ostracize children?,s36_2,depth_charge_baseline,complex_question,Yes,No
+No child is too mean to be included.,Can you ostracize children?,s36_3,inv_depth_charge,complex_question,No,Yes
+Every child is nice enough to be included.,Can you ostracize children?,s36_4,inv_depth_charge_baseline,complex_question,No,Yes
+No lecture is too boring to be unattended.,Can you not attend lectures?,s37_1,depth_charge,complex_question,Yes,No
+Every lecture is interesting enough to be unattended.,Can you not attend lectures?,s37_2,depth_charge_baseline,complex_question,Yes,No
+No lecture is too boring to be attended.,Can you not attend lectures?,s37_3,inv_depth_charge,complex_question,No,Yes
+Every lecture is interesting enough to be attended.,Can you not attend lectures?,s37_4,inv_depth_charge_baseline,complex_question,No,Yes
+No painting is too ugly to be destroyed.,Can you destroy paintings?,s38_1,depth_charge,complex_question,Yes,No
+Every painting is beautiful enough to be destroyed.,Can you destroy paintings?,s38_2,depth_charge_baseline,complex_question,Yes,No
+No painting is too ugly to be preserved.,Can you destroy paintings?,s38_3,inv_depth_charge,complex_question,No,Yes
+Every painting is beautiful enough to be preserved.,Can you destroy paintings?,s38_4,inv_depth_charge_baseline,complex_question,No,Yes
+No culture is too bizarre to be rejected.,Can you reject cultures?,s39_1,depth_charge,complex_question,Yes,No
+Every culture is natural enough to be rejected.,Can you reject cultures?,s39_2,depth_charge_baseline,complex_question,Yes,No
+No culture is too bizarre to be accepted.,Can you reject cultures?,s39_3,inv_depth_charge,complex_question,No,Yes
+Every culture is natural enough to be accepted.,Can you reject cultures?,s39_4,inv_depth_charge_baseline,complex_question,No,Yes
+No job is too small to be dismissed.,Can you dismiss jobs?,s40_1,depth_charge,complex_question,Yes,No
+Every job is big enough to be dismissed.,Can you dismiss jobs?,s40_2,depth_charge_baseline,complex_question,Yes,No
+No job is too small to be valued.,Can you dismiss jobs?,s40_3,inv_depth_charge,complex_question,No,Yes
+Every job is big enough to be valued.,Can you dismiss jobs?,s40_4,inv_depth_charge_baseline,complex_question,No,Yes

@@ -1,0 +1,161 @@
+sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer,gp_noun,gp_verb,reduced_verb
+The student forgot the solution was in the back of the book.,Did the student forget the solution?,s1_1,nps_gp,gp_question,No,Yes,student,forgot,was
+The student forgot the solution was in the back of the book.,Was the solution in the back of the book?,s1_2,nps_gp,simple_question,Yes,No,student,forgot,was
+The student forgot that the solution was in the back of the book.,Did the student forget the solution?,s1_3,nps_nongp,gp_question,No,Yes,student,forgot,was
+The student forgot that the solution was in the back of the book.,Was the solution in the back of the book?,s1_4,nps_nongp,simple_question,Yes,No,student,forgot,was
+The chef remembered the recipe required two hours of cooking.,Did the chef remember the recipe?,s2_1,nps_gp,gp_question,No,Yes,chef,remembered,required
+The chef remembered the recipe required two hours of cooking.,Did the recipe require two hours of cooking?,s2_2,nps_gp,simple_question,Yes,No,chef,remembered,required
+The chef remembered that the recipe required two hours of cooking.,Did the chef remember the recipe?,s2_3,nps_nongp,gp_question,No,Yes,chef,remembered,required
+The chef remembered that the recipe required two hours of cooking.,Did the recipe require two hours of cooking?,s2_4,nps_nongp,simple_question,Yes,No,chef,remembered,required
+The coach discovered the player tried to show off all the time.,Did the coach discover the player?,s3_1,nps_gp,gp_question,No,Yes,coach,discovered,tried
+The coach discovered the player tried to show off all the time.,Did the player try to show off all the time?,s3_2,nps_gp,simple_question,Yes,No,coach,discovered,tried
+The coach discovered that the player tried to show off all the time.,Did the coach discover the player?,s3_3,nps_nongp,gp_question,No,Yes,coach,discovered,tried
+The coach discovered that the player tried to show off all the time.,Did the player try to show off all the time?,s3_4,nps_nongp,simple_question,Yes,No,coach,discovered,tried
+The student understood the question was too hard.,Did the student understand the question?,s4_1,nps_gp,gp_question,No,Yes,student,understood,was
+The student understood the question was too hard.,Was the question too hard?,s4_2,nps_gp,simple_question,Yes,No,student,understood,was
+The student understood that the question was too hard.,Did the student understand the question?,s4_3,nps_nongp,gp_question,No,Yes,student,understood,was
+The student understood that the question was too hard.,Was the question too hard?,s4_4,nps_nongp,simple_question,Yes,No,student,understood,was
+The musician heard the song was good.,Did the musician hear the song?,s5_1,nps_gp,gp_question,No,Yes,musician,heard,was
+The musician heard the song was good.,Was the song good?,s5_2,nps_gp,simple_question,Yes,No,musician,heard,was
+The musician heard that the song was good.,Did the musician hear the song?,s5_3,nps_nongp,gp_question,No,Yes,musician,heard,was
+The musician heard that the song was good.,Was the song good?,s5_4,nps_nongp,simple_question,Yes,No,musician,heard,was
+The reporter believed the story turned out problematic.,Did the reporter believe the story?,s6_1,nps_gp,gp_question,No,Yes,reporter,believed,turned
+The reporter believed the story turned out problematic.,Did the story turn out problematic?,s6_2,nps_gp,simple_question,Yes,No,reporter,believed,turned
+The reporter believed that the story turned out problematic.,Did the reporter believe the story?,s6_3,nps_nongp,gp_question,No,Yes,reporter,believed,turned
+The reporter believed that the story turned out problematic.,Did the story turn out problematic?,s6_4,nps_nongp,simple_question,Yes,No,reporter,believed,turned
+She recalled the conversation ended abruptly.,Did she recall the conversation?,s7_1,nps_gp,gp_question,No,Yes,she,recalled,ended
+She recalled the conversation ended abruptly.,Did the conversation end abruplty?,s7_2,nps_gp,simple_question,Yes,No,she,recalled,ended
+She recalled that the conversation ended abruptly.,Did she recall the conversation?,s7_3,nps_nongp,gp_question,No,Yes,she,recalled,ended
+She recalled that the conversation ended abruptly.,Did the conversation end abruplty?,s7_4,nps_nongp,simple_question,Yes,No,she,recalled,ended
+Tom noticed the murderer left town.,Did Tom notice the murderer?,s8_1,nps_gp,gp_question,No,Yes,Tom,noticed,left
+Tom noticed the murderer left town.,Did the murderer leave town?,s8_2,nps_gp,simple_question,Yes,No,Tom,noticed,left
+Tom noticed that the murderer left town.,Did Tom notice the murderer?,s8_3,nps_nongp,gp_question,No,Yes,Tom,noticed,left
+Tom noticed that the murderer left town.,Did the murderer leave town?,s8_4,nps_nongp,simple_question,Yes,No,Tom,noticed,left
+The policeman saw the lights were off.,Did the policeman see the lights?,s9_1,nps_gp,gp_question,No,Yes,policeman,saw,were
+The policeman saw the lights were off.,Were the lights off?,s9_2,nps_gp,simple_question,Yes,No,policeman,saw,were
+The policeman saw that the lights were off.,Did the policeman see the lights?,s9_3,nps_nongp,gp_question,No,Yes,policeman,saw,were
+The policeman saw that the lights were off.,Were the lights off?,s9_4,nps_nongp,simple_question,Yes,No,policeman,saw,were
+The journalist shared the scoop was fake.,Did the journalist share the scoop?,s10_1,nps_gp,gp_question,No,Yes,journalist,shared,was
+The journalist shared the scoop was fake.,Was the scoop fake?,s10_2,nps_gp,simple_question,Yes,No,journalist,shared,was
+The journalist shared that the scoop was fake.,Did the journalist share the scoop?,s10_3,nps_nongp,gp_question,No,Yes,journalist,shared,was
+The journalist shared that the scoop was fake.,Was the scoop fake?,s10_4,nps_nongp,simple_question,Yes,No,journalist,shared,was
+The manager noticed the report was overdue.,Did the manager notice the report?,s11_1,nps_gp,gp_question,No,Yes,manager,noticed,was
+The manager noticed the report was overdue.,Was the report overdue?,s11_2,nps_gp,simple_question,Yes,No,manager,noticed,was
+The manager noticed that the report was overdue.,Did the manager notice the report?,s11_3,nps_nongp,gp_question,No,Yes,manager,noticed,was
+The manager noticed that the report was overdue.,Was the report overdue?,s11_4,nps_nongp,simple_question,Yes,No,manager,noticed,was
+The art curator explained the painting sold for 4 million dollars.,Did the art curator explain the painting?,s12_1,nps_gp,gp_question,No,Yes,art curator,explained,sold
+The art curator explained the painting sold for 4 million dollars.,Did the painting sell for 4 million dollars?,s12_2,nps_gp,simple_question,Yes,No,art curator,explained,sold
+The art curator explained that the painting sold for 4 million dollars.,Did the art curator explain the painting?,s12_3,nps_nongp,gp_question,No,Yes,art curator,explained,sold
+The art curator explained that the painting sold for 4 million dollars.,Did the painting sell for 4 million dollars?,s12_4,nps_nongp,simple_question,Yes,No,art curator,explained,sold
+The driver knew the road was slippery.,Did the driver know the road?,s13_1,nps_gp,gp_question,No,Yes,driver,knew,was
+The driver knew the road was slippery.,Was the road slippery?,s13_2,nps_gp,simple_question,Yes,No,driver,knew,was
+The driver knew that the road was slippery.,Did the driver know the road?,s13_3,nps_nongp,gp_question,No,Yes,driver,knew,was
+The driver knew that the road was slippery.,Was the road slippery?,s13_4,nps_nongp,simple_question,Yes,No,driver,knew,was
+The professor realized the experiment failed due to contamination.,Did the professor realize the experiment?,s14_1,nps_gp,gp_question,No,Yes,professor,realized,failed
+The professor realized the experiment failed due to contamination.,Did the experiment fail?,s14_2,nps_gp,simple_question,Yes,No,professor,realized,failed
+The professor realized that the experiment failed due to contamination.,Did the professor realize the experiment?,s14_3,nps_nongp,gp_question,No,Yes,professor,realized,failed
+The professor realized that the experiment failed due to contamination.,Did the experiment fail?,s14_4,nps_nongp,simple_question,Yes,No,professor,realized,failed
+The plaintiff accepted the verdict was unfair.,Did the plaintiff accept the verdict?,s15_1,nps_gp,gp_question,No,Yes,plaintiff,accepted,was
+The plaintiff accepted the verdict was unfair.,Was the verdict unfair?,s15_2,nps_gp,simple_question,Yes,No,plaintiff,accepted,was
+The plaintiff accepted that the verdict was unfair.,Did the plaintiff accept the verdict?,s15_3,nps_nongp,gp_question,No,Yes,plaintiff,accepted,was
+The plaintiff accepted that the verdict was unfair.,Was the verdict unfair?,s15_4,nps_nongp,simple_question,Yes,No,plaintiff,accepted,was
+The committee found the proposal was flawed.,Did the committee find the proposal?,s16_1,nps_gp,gp_question,No,Yes,committee,found,was
+The committee found the proposal was flawed.,Was the proposal flawed?,s16_2,nps_gp,simple_question,Yes,No,committee,found,was
+The committee found that the proposal was flawed.,Did the committee find the proposal?,s16_3,nps_nongp,gp_question,No,Yes,committee,found,was
+The committee found that the proposal was flawed.,Was the proposal flawed?,s16_4,nps_nongp,simple_question,Yes,No,committee,found,was
+The editor mentioned the errors were corrected. ,Did the editor mention the errors?,s17_1,nps_gp,gp_question,No,Yes,editor,mentioned,were
+The editor mentioned the errors were corrected. ,Were the errors corrected?,s17_2,nps_gp,simple_question,Yes,No,editor,mentioned,were
+The editor mentioned that the errors were corrected. ,Did the editor mention the errors?,s17_3,nps_nongp,gp_question,No,Yes,editor,mentioned,were
+The editor mentioned that the errors were corrected. ,Were the errors corrected?,s17_4,nps_nongp,simple_question,Yes,No,editor,mentioned,were
+The archaeologist revealed the artifact broke during extraction.,Did the archeologist reveal the artifact?,s18_1,nps_gp,gp_question,No,Yes,archeologist,revealed,broke
+The archaeologist revealed the artifact broke during extraction.,Did the artifact break during extraction?,s18_2,nps_gp,simple_question,Yes,No,archeologist,revealed,broke
+The archaeologist revealed that the artifact broke during extraction.,Did the archeologist reveal the artifact?,s18_3,nps_nongp,gp_question,No,Yes,archeologist,revealed,broke
+The archaeologist revealed that the artifact broke during extraction.,Did the artifact break during extraction?,s18_4,nps_nongp,simple_question,Yes,No,archeologist,revealed,broke
+The new hire learned Spanish was mandatory for client meetings.,Did the new hire learn Spanish?,s19_1,nps_gp,gp_question,No,Yes,new hire,learned,was
+The new hire learned Spanish was mandatory for client meetings.,Was Spanish mandatory for client meetings?,s19_2,nps_gp,simple_question,Yes,No,new hire,learned,was
+The new hire learned that Spanish was mandatory for client meetings.,Did the new hire learn Spanish?,s19_3,nps_nongp,gp_question,No,Yes,new hire,learned,was
+The new hire learned that Spanish was mandatory for client meetings.,Was Spanish mandatory for client meetings?,s19_4,nps_nongp,simple_question,Yes,No,new hire,learned,was
+The detective disclosed the evidence was only recently found. ,Did the detective disclose the evidence?,s20_1,nps_gp,gp_question,No,Yes,detective,disclosed,was
+The detective disclosed the evidence was only recently found. ,Was the evidence only recently found?,s20_2,nps_gp,simple_question,Yes,No,detective,disclosed,was
+The detective disclosed that the evidence was only recently found. ,Did the detective disclose the evidence?,s20_3,nps_nongp,gp_question,No,Yes,detective,disclosed,was
+The detective disclosed that the evidence was only recently found. ,Was the evidence only recently found?,s20_4,nps_nongp,simple_question,Yes,No,detective,disclosed,was
+The scientist proved the theory was incorrect after experiments.,Did the scientist prove the theory?,s21_1,nps_gp,gp_question,No,Yes,scientist,proved,was
+The scientist proved the theory was incorrect after experiments.,Was the theory incorrect?,s21_2,nps_gp,simple_question,Yes,No,scientist,proved,was
+The scientist proved that the theory was incorrect after experiments.,Did the scientist prove the theory?,s21_3,nps_nongp,gp_question,No,Yes,scientist,proved,was
+The scientist proved that the theory was incorrect after experiments.,Was the theory incorrect?,s21_4,nps_nongp,simple_question,Yes,No,scientist,proved,was
+The president announced the policy was approved unanimously.,Did the president announce the policy?,s22_1,nps_gp,gp_question,No,Yes,president,announced,was
+The president announced the policy was approved unanimously.,Was the policy approved unanimously?,s22_2,nps_gp,simple_question,Yes,No,president,announced,was
+The president announced that the policy was approved unanimously.,Did the president announce the policy?,s22_3,nps_nongp,gp_question,No,Yes,president,announced,was
+The president announced that the policy was approved unanimously.,Was the policy approved unanimously?,s22_4,nps_nongp,simple_question,Yes,No,president,announced,was
+The tennisman conceded the point was beautiful.,Did the tennisman concede the point?,s23_1,nps_gp,gp_question,No,Yes,tennisman,conceded,was
+The tennisman conceded the point was beautiful.,Was the point beautiful?,s23_2,nps_gp,simple_question,Yes,No,tennisman,conceded,was
+The tennisman conceded that the point was beautiful.,Did the tennisman concede the point?,s23_3,nps_nongp,gp_question,No,Yes,tennisman,conceded,was
+The tennisman conceded that the point was beautiful.,Was the point beautiful?,s23_4,nps_nongp,simple_question,Yes,No,tennisman,conceded,was
+The president declared war was not an option.,Did the president declare war?,s24_1,nps_gp,gp_question,No,Yes,president,declared,was
+The president declared war was not an option.,Was war an option?,s24_2,nps_gp,simple_question,Yes,No,president,declared,was
+The president declared that war was not an option.,Did the president declare war?,s24_3,nps_nongp,gp_question,No,Yes,president,declared,was
+The president declared that war was not an option.,Was war an option?,s24_4,nps_nongp,simple_question,Yes,No,president,declared,was
+The filmmaker showed the movie was bad.,Did the filmmaker show the movie?,s25_1,nps_gp,gp_question,No,Yes,filmmaker,showed,was
+The filmmaker showed the movie was bad.,Was the movie bad?,s25_2,nps_gp,simple_question,Yes,No,filmmaker,showed,was
+The filmmaker showed that the movie was bad.,Did the filmmaker show the movie?,s25_3,nps_nongp,gp_question,No,Yes,filmmaker,showed,was
+The filmmaker showed that the movie was bad.,Was the movie bad?,s25_4,nps_nongp,simple_question,Yes,No,filmmaker,showed,was
+The guard recognized the visitor was armed.,Did the guard recognize the visitor?,s26_1,nps_gp,gp_question,No,Yes,guard,recognized,was
+The guard recognized the visitor was armed.,Was the visitor armed?,s26_2,nps_gp,simple_question,Yes,No,guard,recognized,was
+The guard recognized that the visitor was armed.,Did the guard recognize the visitor?,s26_3,nps_nongp,gp_question,No,Yes,guard,recognized,was
+The guard recognized that the visitor was armed.,Was the visitor armed?,s26_4,nps_nongp,simple_question,Yes,No,guard,recognized,was
+The couple regretted the wedding lasted only 2 hours.,Did the couple regret the wedding?,s27_1,nps_gp,gp_question,No,Yes,couple,regretted,lasted
+The couple regretted the wedding lasted only 2 hours.,Did the wedding last only 2 hours?,s27_2,nps_gp,simple_question,Yes,No,couple,regretted,lasted
+The couple regretted that the wedding lasted only 2 hours.,Did the couple regret the wedding?,s27_3,nps_nongp,gp_question,No,Yes,couple,regretted,lasted
+The couple regretted that the wedding lasted only 2 hours.,Did the wedding last only 2 hours?,s27_4,nps_nongp,simple_question,Yes,No,couple,regretted,lasted
+The reporter repeated the claim was false.,Did the reporter repeat the claim?,s28_1,nps_gp,gp_question,No,Yes,reporter,repeated,was
+The reporter repeated the claim was false.,Was the claim false?,s28_2,nps_gp,simple_question,Yes,No,reporter,repeated,was
+The reporter repeated that the claim was false.,Did the reporter repeat the claim?,s28_3,nps_nongp,gp_question,No,Yes,reporter,repeated,was
+The reporter repeated that the claim was false.,Was the claim false?,s28_4,nps_nongp,simple_question,Yes,No,reporter,repeated,was
+The driver forgot the car slowed down at night.,Did the driver forget the car?,s29_1,nps_gp,gp_question,No,Yes,driver,forgot,slowed
+The driver forgot the car slowed down at night.,Did the car slow down at night?,s29_2,nps_gp,simple_question,Yes,No,driver,forgot,slowed
+The driver forgot that the car slowed down at night.,Did the driver forget the car?,s29_3,nps_nongp,gp_question,No,Yes,driver,forgot,slowed
+The driver forgot that the car slowed down at night.,Did the car slow down at night?,s29_4,nps_nongp,simple_question,Yes,No,driver,forgot,slowed
+The guard remembered the code changed last night.,Did the guard remember the code?,s30_1,nps_gp,gp_question,No,Yes,guard,remembered,changed
+The guard remembered the code changed last night.,Did the code change last night?,s30_2,nps_gp,simple_question,Yes,No,guard,remembered,changed
+The guard remembered that the code changed last night.,Did the guard remember the code?,s30_3,nps_nongp,gp_question,No,Yes,guard,remembered,changed
+The guard remembered that the code changed last night.,Did the code change last night?,s30_4,nps_nongp,simple_question,Yes,No,guard,remembered,changed
+The tourist discovered the bridge was closed for the holiday. ,Did the tourist discover the bridge?,s31_1,nps_gp,gp_question,No,Yes,tourist,discovered,was
+The tourist discovered the bridge was closed for the holiday. ,Did the bridge close for the holiday?,s31_2,nps_gp,simple_question,Yes,No,tourist,discovered,was
+The tourist discovered that the bridge was closed for the holiday. ,Did the tourist discover the bridge?,s31_3,nps_nongp,gp_question,No,Yes,tourist,discovered,was
+The tourist discovered that the bridge was closed for the holiday. ,Did the bridge close for the holiday?,s31_4,nps_nongp,simple_question,Yes,No,tourist,discovered,was
+The undergrad understood the formula was too complicated for him.,Did the undergrad understand the formula?,s32_1,nps_gp,gp_question,No,Yes,undergrad,understood,was
+The undergrad understood the formula was too complicated for him.,Was the formula too complicated?,s32_2,nps_gp,simple_question,Yes,No,undergrad,understood,was
+The undergrad understood that the formula was too complicated for him.,Did the undergrad understand the formula?,s32_3,nps_nongp,gp_question,No,Yes,undergrad,understood,was
+The undergrad understood that the formula was too complicated for him.,Was the formula too complicated?,s32_4,nps_nongp,simple_question,Yes,No,undergrad,understood,was
+The manager heard the plan fell through.,Did the manager hear the plan?,s33_1,nps_gp,gp_question,No,Yes,manager,heard,fell
+The manager heard the plan fell through.,Did the plan fall through?,s33_2,nps_gp,simple_question,Yes,No,manager,heard,fell
+The manager heard that the plan fell through.,Did the manager hear the plan?,s33_3,nps_nongp,gp_question,No,Yes,manager,heard,fell
+The manager heard that the plan fell through.,Did the plan fall through?,s33_4,nps_nongp,simple_question,Yes,No,manager,heard,fell
+The analyst believed the numbers were wrong.,Did the analyst believe the numbers?,s34_1,nps_gp,gp_question,No,Yes,analyst,believed,were
+The analyst believed the numbers were wrong.,Were the numbers wrong?,s34_2,nps_gp,simple_question,Yes,No,analyst,believed,were
+The analyst believed that the numbers were wrong.,Did the analyst believe the numbers?,s34_3,nps_nongp,gp_question,No,Yes,analyst,believed,were
+The analyst believed that the numbers were wrong.,Were the numbers wrong?,s34_4,nps_nongp,simple_question,Yes,No,analyst,believed,were
+The painter recalled the model stood him up.,Did the painter recall the model?,s35_1,nps_gp,gp_question,No,Yes,painter,recalled,stood
+The painter recalled the model stood him up.,Did the model stand up the painter?,s35_2,nps_gp,simple_question,Yes,No,painter,recalled,stood
+The painter recalled that the model stood him up.,Did the painter recall the model?,s35_3,nps_nongp,gp_question,No,Yes,painter,recalled,stood
+The painter recalled that the model stood him up.,Did the model stand up the painter?,s35_4,nps_nongp,simple_question,Yes,No,painter,recalled,stood
+The guard saw the diamond disappeared overnight.,Did the guard see the diamond?,s36_1,nps_gp,gp_question,No,Yes,guard,saw,disappeared
+The guard saw the diamond disappeared overnight.,Did the diamond disappear?,s36_2,nps_gp,simple_question,Yes,No,guard,saw,disappeared
+The guard saw that the diamond disappeared overnight.,Did the guard see the diamond?,s36_3,nps_nongp,gp_question,No,Yes,guard,saw,disappeared
+The guard saw that the diamond disappeared overnight.,Did the diamond disappear?,s36_4,nps_nongp,simple_question,Yes,No,guard,saw,disappeared
+The critic knew the song was very popular.,Did the critic know the song?,s37_1,nps_gp,gp_question,No,Yes,critic,knew,was
+The critic knew the song was very popular.,Was the song very popular?,s37_2,nps_gp,simple_question,Yes,No,critic,knew,was
+The critic knew that the song was very popular.,Did the critic know the song?,s37_3,nps_nongp,gp_question,No,Yes,critic,knew,was
+The critic knew that the song was very popular.,Was the song very popular?,s37_4,nps_nongp,simple_question,Yes,No,critic,knew,was
+The student learned the lesson was canceled.,Did the student learn the lesson?,s38_1,nps_gp,gp_question,No,Yes,student,lesson,was
+The student learned the lesson was canceled.,Was the lesson canceled?,s38_2,nps_gp,simple_question,Yes,No,student,lesson,was
+The student learned that the lesson was canceled.,Did the student learn the lesson?,s38_3,nps_nongp,gp_question,No,Yes,student,lesson,was
+The student learned that the lesson was canceled.,Was the lesson canceled?,s38_4,nps_nongp,simple_question,Yes,No,student,lesson,was
+The experiment proved the claim was incorrect.,Did the experiment prove the claim?,s39_1,nps_gp,gp_question,No,Yes,experiment,proved,was
+The experiment proved the claim was incorrect.,Was the claim incorrect?,s39_2,nps_gp,simple_question,Yes,No,experiment,proved,was
+The experiment proved that the claim was incorrect.,Did the experiment prove the claim?,s39_3,nps_nongp,gp_question,No,Yes,experiment,proved,was
+The experiment proved that the claim was incorrect.,Was the claim incorrect?,s39_4,nps_nongp,simple_question,Yes,No,experiment,proved,was
+The musician recognized the song was catchy.,Did the musician recognize the song?,s40_1,nps_gp,gp_question,No,Yes,musician,recognized,was
+The musician recognized the song was catchy.,Was the song catchy?,s40_2,nps_gp,simple_question,Yes,No,musician,recognized,was
+The musician recognized that the song was catchy.,Did the musician recognize the song?,s40_3,nps_nongp,gp_question,No,Yes,musician,recognized,was
+The musician recognized that the song was catchy.,Was the song catchy?,s40_4,nps_nongp,simple_question,Yes,No,musician,recognized,was

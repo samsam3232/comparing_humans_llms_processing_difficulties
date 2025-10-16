@@ -1,0 +1,49 @@
+set_id,sentence,question,quest_type,sent_type,correct_answer,incorrect_answer
+s1_1,The banker that the barber praised climbed the mountain just outside of town before it snowed.,Did the banker praise the barber?,no_question,interference,No,Yes
+s2_1,The dancer that the reporter phoned cooked the pork chops in their own juices on New Year's Eve.,Did the dancer phone the reporter?,no_question,interference,No,Yes
+s3_1,The architect that the fireman liked dominated the conversation while the game was on television.,Did the architect like the fireman?,no_question,interference,No,Yes
+s4_1,The waiter that the broker despised drove the sports car home from work that evening.,Did the waiter despise the broker?,no_question,interference,No,Yes
+s5_1,The detective that the secretary disliked clipped the coupons out with the dull scissors.,Did the detective dislike the secretary?,no_question,interference,No,Yes
+s6_1,The judge that the doctor ignored watched the special about Colombian drug dealers on the nightly news.,Did the judge ignore the doctor?,no_question,interference,No,Yes
+s7_1,The robber that the mailman insulted read the newspaper article about the fire.,Did the robber insult the mailman?,no_question,interference,No,Yes
+s8_1,The governor that the comedian admired answered the telephone in the fancy restaurant.,Did the governor admire the comedian?,no_question,interference,No,Yes
+s1_2,The banker that you praised climbed the mountain just outside of town before it snowed.,Did the banker praise you?,no_question,no_interference,No,Yes
+s2_2,The dancer that you phoned cooked the pork chops in their own juices on New Year's Eve.,Did the dancer phone you?,no_question,no_interference,No,Yes
+s3_2,The architect that you liked dominated the conversation while the game was on television.,Did the architect like you?,no_question,no_interference,No,Yes
+s4_2,The waiter that you despised drove the sports car home from work that evening.,Did the waiter despise you?,no_question,no_interference,No,Yes
+s5_2,The detective that you disliked clipped the coupons out with the dull scissors.,Did the detective dislike you?,no_question,no_interference,No,Yes
+s6_2,The judge that you ignored watched the special about Colombian drug dealers on the nightly news.,Did the judge ignore you?,no_question,no_interference,No,Yes
+s7_2,The robber that you insulted read the newspaper article about the fire.,Did the robber insult you?,no_question,no_interference,No,Yes
+s8_2,The governor that you admired answered the telephone in the fancy restaurant.,Did the governor admire you?,no_question,no_interference,No,Yes
+s9_1,The actor that the director thanked worked in many hit movies before 1990.,Did the actor thank the director?,no_question,interference,No,Yes
+s10_1,The poet that the painter inspired wrote an autobiography after their friendship became well known.,Did the poet inspire the painter?,no_question,interference,No,Yes
+s11_1,The chef that the cashier distrusted called for help after the restaurant closed.,Did the chef distrust the cashier?,no_question,interference,No,Yes
+s12_1,The aunt that the child amused made paper dolls out of the newspaper.,Did the aunt amuse the child?,no_question,interference,No,Yes
+s13_1,The violinist that the conductor complimented performed at Carnegie Hall for two weeks.,Did the violonist compliment the conductor?,no_question,interference,No,Yes
+s14_1,The teacher that the student questioned wrote a long science fiction novel during the summer vacation.,Did the teacher question the student?,no_question,interference,No,Yes
+s15_1,The editor that the author recommended changed jobs after a new merger was announced.,Did the editor recommend the author?,no_question,interference,No,Yes
+s16_1,The tailor that the customer described worked in a small building near the bus station.,Did the tailor describe the customer?,no_question,interference,No,Yes
+s17_1,The admiral that the general advised reminisced nostalgically before the trip got underway.,Did the admiral advise the general?,no_question,interference,No,Yes
+s18_1,The coach that the referee criticized talked publicly about the incident after the game.,Did the coach criticize the referee?,no_question,interference,No,Yes
+s19_1,The lawyer that the client interviewed had a very small office.,Did the lawyer interview the client?,no_question,interference,No,Yes
+s20_1,The plumber that the electrician called drove a grey truck.,Did the plumber call the electrician?,no_question,interference,No,Yes
+s21_1,The salesman that the accountant contacted spoke very quickly.,Did the salesman contact the accountant?,no_question,interference,No,Yes
+s22_1,The clown that the magician entertained was a star.,Did the clown entertain the magician?,no_question,interference,No,Yes
+s23_1,The clerk that the traveler helped worked in a large foreign bank.,Did the clerk help the traveler?,no_question,interference,No,Yes
+s24_1,The gardener that the homeowner envied was very friendly.,Did the gardener envy the homeowner?,no_question,interference,No,Yes
+s9_2,The actor that you thanked worked in many hit movies before 1990.,Did the actor thank you?,no_question,no_interference,No,Yes
+s10_2,The poet that you inspired wrote an autobiography after their friendship became well known.,Did the poet inspire you?,no_question,no_interference,No,Yes
+s11_2,The chef that you distrusted called for help after the restaurant closed.,Did the chef distrust you?,no_question,no_interference,No,Yes
+s12_2,The aunt that you amused made paper dolls out of the newspaper.,Did the aunt amuse you?,no_question,no_interference,No,Yes
+s13_2,The violinist that you complimented performed at Carnegie Hall for two weeks.,Did the violonist compliment you?,no_question,no_interference,No,Yes
+s14_2,The teacher that you questioned wrote a long science fiction novel during the summer vacation.,Did the teacher question you?,no_question,no_interference,No,Yes
+s15_2,The editor that you recommended changed jobs after a new merger was announced.,Did the editor recommend you?,no_question,no_interference,No,Yes
+s16_2,The tailor that you described worked in a small building near the bus station.,Did the tailor describe you?,no_question,no_interference,No,Yes
+s17_2,The admiral that you advised reminisced nostalgically before the trip got underway.,Did the admiral advise you?,no_question,no_interference,No,Yes
+s18_2,The coach that you criticized talked publicly about the incident after the game.,Did the coach criticize you?,no_question,no_interference,No,Yes
+s19_2,The lawyer that you interviewed had a very small office.,Did the lawyer interview you?,no_question,no_interference,No,Yes
+s20_2,The plumber that you called drove a grey truck.,Did the plumber call you?,no_question,no_interference,No,Yes
+s21_2,The salesman that you contacted spoke very quickly.,Did the salesman contact you?,no_question,no_interference,No,Yes
+s22_2,The clown that you entertained was a star.,Did the clown entertain you?,no_question,no_interference,No,Yes
+s23_2,The clerk that you helped worked in a large foreign bank.,Did the clerk help you?,no_question,no_interference,No,Yes
+s24_2,The gardener that you envied was very friendly.,Did the gardener envy you?,no_question,no_interference,No,Yes
